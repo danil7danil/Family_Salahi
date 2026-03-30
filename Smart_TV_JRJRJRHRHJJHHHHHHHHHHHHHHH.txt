@@ -1,51 +1,169 @@
-vless://c2370ec2-6c6f-4a2f-9aff-59817ca4f45b@79.137.174.61:443?security=reality&encryption=none&pbk=10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc&headerType=none&fp=qq&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=ads.x5.ru&sid=43dcff53849b81e6#🇷🇺 ⚡️ 11.3 LTE - Россия | Telega работает
-
-vless://c2370ec2-6c6f-4a2f-9aff-59817ca4f45b@144.31.90.44:443?security=reality&encryption=none&pbk=10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc&headerType=none&fp=qq&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=fi.quattro-tech.ru&sid=43dcff53849b81e6#🇫🇮 Финляндия | Telega работает
-
-vless://c2370ec2-6c6f-0004-9aff-59817ca4f45b@79.137.174.77:8443?security=reality&encryption=none&pbk=10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc&headerType=none&fp=qq&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=ads.x5.ru&sid=43dcff53849b81e6#🇫🇮 🎮 ⭐️ 45 LTE - Игровой | Telega работает
-
-vless://c2370ec2-6c6f-0006-9aff-59817ca4f45b@79.137.174.77:8443?security=reality&encryption=none&pbk=10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc&headerType=none&fp=qq&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=ads.x5.ru&sid=43dcff53849b81e6#🇱🇻 🎮 ⚡️ 49 LTE - Игровой | Telega работает
-
-vless://c2370ec2-6c6f-4a2f-9aff-59817ca4f45b@79.137.174.61:443?security=reality&encryption=none&pbk=10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc&headerType=none&fp=qq&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=api-maps.yandex.ru&sid=43dcff53849b81e6#🇷🇺 ⚡️ 11.2 LTE - Россия | Telega работает
-
-vless://c2370ec2-6c6f-4a2f-9aff-59817ca4f45b@185.215.184.74:443?security=reality&encryption=none&pbk=10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc&headerType=none&fp=qq&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=ee.quattro-tech.ru&sid=43dcff53849b81e6#🇪🇪 ⭐️ Эстония | Telega работает
-
-vless://c2370ec2-6c6f-4a2f-9aff-59817ca4f45b@144.31.90.44:443?security=reality&encryption=none&pbk=10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc&headerType=none&fp=qq&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=fi.quattro-tech.ru&sid=43dcff53849b81e6#🇫🇮 🎮 ⭐️ 45 LTE - Игровой (резерв) | Telega работает
-
-vless://c2370ec2-6c6f-4a2f-9aff-59817ca4f45b@46.183.223.211:443?security=reality&encryption=none&pbk=10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc&headerType=none&fp=edge&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=lv.quattro-tech.ru&sid=43dcff53849b81e6#🇱🇻 Латвия | Telega работает
-
-vless://c2370ec2-6c6f-4a2f-9aff-59817ca4f45b@185.215.184.74:443?security=reality&encryption=none&pbk=10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc&headerType=none&fp=qq&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=ee.quattro-tech.ru&sid=43dcff53849b81e6#🇪🇪 🎮 ⭐️ 51 LTE - Игровой | Telega работает
-
-vless://c2370ec2-6c6f-000a-9aff-59817ca4f45b@79.137.174.77:8443?security=reality&encryption=none&pbk=10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc&headerType=none&fp=qq&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=ads.x5.ru&sid=43dcff53849b81e6#🇳🇱 Нидерланды | Telega работает
-
-vless://c2370ec2-6c6f-000a-9aff-59817ca4f45b@79.137.174.77:8443?security=reality&encryption=none&pbk=10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc&headerType=none&fp=qq&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=ads.x5.ru&sid=43dcff53849b81e6#🇳🇱 Нидерланды | Telega работает
-
-vless://c2370ec2-6c6f-4a2f-9aff-59817ca4f45b@144.31.1.31:443?security=reality&encryption=none&pbk=10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc&headerType=none&fp=qq&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=pl.quattro-tech.ru&sid=43dcff53849b81e6#🇵🇱 🎮 ⭐️ 44 LTE - Игровой | Telega работает
-
-vless://c2370ec2-6c6f-4a2f-9aff-59817ca4f45b@46.183.223.211:443?security=reality&encryption=none&pbk=10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc&headerType=none&fp=edge&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=lv.quattro-tech.ru&sid=43dcff53849b81e6#🇱🇻 ⚡️ Латвия | Telega работает
-
-vless://c2370ec2-6c6f-4a2f-9aff-59817ca4f45b@37.49.225.224:443?security=reality&encryption=none&pbk=10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc&headerType=none&fp=qq&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=nl.quattro-tech.ru&sid=43dcff53849b81e6#🇳🇱 ⭐️ 12.5 LTE - Нидерланды | Telega работает
-
-vless://c2370ec2-6c6f-4a2f-9aff-59817ca4f45b@37.49.225.224:443?security=reality&encryption=none&pbk=10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc&headerType=none&fp=qq&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=nl.quattro-tech.ru&sid=43dcff53849b81e6#🇳🇱 Нидерланды | Telega работает
-
-vless://c2370ec2-6c6f-000e-9aff-59817ca4f45b@51.250.100.185:8443?security=reality&encryption=none&pbk=10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc&headerType=none&fp=qq&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=ads.x5.ru&sid=43dcff53849b81e6#🇫🇮 Финляндия | Telega работает
-
-vless://c2370ec2-6c6f-4a2f-9aff-59817ca4f45b@109.69.218.48:443?security=reality&encryption=none&pbk=10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc&headerType=none&fp=qq&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=be.quattro-tech.ru&sid=43dcff53849b81e6#🇧🇪 Бельгия | Telega работает
-
-vless://c2370ec2-6c6f-0006-9aff-59817ca4f45b@79.137.174.77:8443?security=reality&encryption=none&pbk=10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc&headerType=none&fp=qq&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=ads.x5.ru&sid=43dcff53849b81e6#🇱🇻 Латвия | Telega работает
-
-vless://c2370ec2-6c6f-4a2f-9aff-59817ca4f45b@185.215.184.74:443?security=reality&encryption=none&pbk=10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc&headerType=none&fp=qq&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=ee.quattro-tech.ru&sid=43dcff53849b81e6#🇪🇪 Эстония | Telega работает
-
-vless://c2370ec2-6c6f-0080-9aff-59817ca4f45b@cloud.quattro-tech.ru:8443?security=reality&encryption=none&pbk=10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc&headerType=none&fp=chrome&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=cloud.quattro-tech.ru&sid=43dcff53849b81e6#🇷🇸 Сербия | Telega работает
-
-vless://c2370ec2-6c6f-4a2f-9aff-59817ca4f45b@195.47.238.10:443?security=reality&encryption=none&pbk=10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc&headerType=none&fp=qq&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=se.quattro-tech.ru&sid=43dcff53849b81e6#🇸🇪 Швеция | Telega работает
-
-vless://c2370ec2-6c6f-0026-9aff-59817ca4f45b@cloud.quattro-tech.ru:8443?security=reality&encryption=none&pbk=10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc&headerType=none&fp=chrome&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=cloud.quattro-tech.ru&sid=43dcff53849b81e6#🇧🇬 Болгария | Telega работает
-
-vless://c2370ec2-6c6f-4a2f-9aff-59817ca4f45b@195.47.238.10:8443?security=reality&encryption=none&pbk=10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc&headerType=none&fp=qq&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=auto.quattro-tech.ru&sid=43dcff53849b81e6#🇷🇺 ⚡️ 31.3 LTE - Россия | Telega работает
-
-vless://c2370ec2-6c6f-0007-9aff-59817ca4f45b@51.250.100.185:8443?security=reality&encryption=none&pbk=10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc&headerType=none&fp=qq&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=ads.x5.ru&sid=43dcff53849b81e6#🇪🇪 Эстония | Telega работает
-
-vless://c2370ec2-6c6f-4a2f-9aff-59817ca4f45b@cloud.quattro-tech.ru:443?security=reality&encryption=none&pbk=10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc&headerType=none&fp=edge&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=cloud.quattro-tech.ru&sid=43dcff53849b81e6#🇷🇺 Россия | Telega работает
-
-vless://c2370ec2-6c6f-4a2f-9aff-59817ca4f45b@95.141.36.129:443?security=reality&encryption=none&pbk=10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc&headerType=none&fp=qq&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=it.quattro-tech.ru&sid=43dcff53849b81e6#🇮🇹 Италия | Telega работает
+{
+  "remarks": "Халява закончилась 🤗",
+  "dns": {
+    "servers": [
+      "1.1.1.1",
+      "1.0.0.1"
+    ],
+    "queryStrategy": "UseIP"
+  },
+  "inbounds": [
+    {
+      "tag": "socks",
+      "port": 10808,
+      "listen": "127.0.0.1",
+      "protocol": "socks",
+      "settings": {
+        "udp": true,
+        "auth": "noauth"
+      },
+      "sniffing": {
+        "enabled": true,
+        "routeOnly": false,
+        "destOverride": [
+          "http",
+          "tls",
+          "quic"
+        ]
+      }
+    },
+    {
+      "tag": "http",
+      "port": 10809,
+      "listen": "127.0.0.1",
+      "protocol": "http",
+      "settings": {
+        "allowTransparent": false
+      },
+      "sniffing": {
+        "enabled": true,
+        "routeOnly": false,
+        "destOverride": [
+          "http",
+          "tls",
+          "quic"
+        ]
+      }
+    }
+  ],
+  "outbounds": [
+    {
+      "tag": "🇪🇺  YouTube - Без рекламы ",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "tv.astralweb.tech",
+            "port": 443,
+            "users": [
+              {
+                "id": "79cd8809-6435-49e8-a2cf-2effb96a7ff7",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "max.ru",
+          "show": false,
+          "publicKey": "i5a8i2AWUSMZ-rYA6hGBRCBBoe7W5ah33SCdF5JkMk4",
+          "shortId": "8bcfe256cf216fd8"
+        }
+      }
+    },
+    {
+      "tag": "direct",
+      "protocol": "freedom"
+    },
+    {
+      "tag": "block",
+      "protocol": "blackhole"
+    }
+  ],
+  "burstObservatory": {
+    "subjectSelector": [
+      "🇪🇺  YouTube - Без рекламы "
+    ],
+    "pingConfig": {
+      "destination": "https://www.gstatic.com/generate_204",
+      "interval": "3m",
+      "sampling": 3,
+      "timeout": "2s",
+      "httpMethod": "GET"
+    }
+  },
+  "routing": {
+    "domainStrategy": "IPIfNonMatch",
+    "balancers": [
+      {
+        "tag": "_YouTube-balancer",
+        "selector": [
+          "🇪🇺  YouTube - Без рекламы "
+        ],
+        "strategy": {
+          "type": "leastLoad",
+          "settings": {
+            "expected": 1,
+            "baselines": [
+              "1s"
+            ],
+            "tolerance": 0.8
+          }
+        }
+      }
+    ],
+    "rules": [
+      {
+        "type": "field",
+        "network": "udp",
+        "port": "443",
+        "outboundTag": "block"
+      },
+      {
+        "type": "field",
+        "protocol": [
+          "bittorrent"
+        ],
+        "outboundTag": "direct"
+      },
+      {
+        "type": "field",
+        "domain": [
+          "localhost",
+          "localhost.localdomain",
+          "local",
+          "*.local",
+          "*.localdomain",
+          "*.lan",
+          "*.internal"
+        ],
+        "outboundTag": "direct"
+      },
+      {
+        "type": "field",
+        "ip": [
+          "127.0.0.0/8",
+          "10.0.0.0/8",
+          "172.16.0.0/12",
+          "192.168.0.0/16",
+          "169.254.0.0/16",
+          "::1/128",
+          "fc00::/7",
+          "fe80::/10"
+        ],
+        "outboundTag": "direct"
+      },
+      {
+        "type": "field",
+        "network": "tcp,udp",
+        "balancerTag": "_YouTube-balancer"
+      }
+    ]
+  }
+}
