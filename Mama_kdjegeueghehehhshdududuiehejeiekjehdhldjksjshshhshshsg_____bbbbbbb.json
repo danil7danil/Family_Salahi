@@ -1,0 +1,5219 @@
+[
+  {
+    "remarks": "🇪🇺 🛜Авто🤗",
+    "log": {
+      "loglevel": "warning"
+    },
+    "dns": {
+      "servers": [
+        "1.1.1.1",
+        "1.0.0.1"
+      ],
+      "queryStrategy": "UseIPv4",
+      "disableFallback": false
+    },
+    "inbounds": [
+      {
+        "tag": "socks",
+        "port": 10808,
+        "listen": "127.0.0.1",
+        "protocol": "socks",
+        "settings": {
+          "udp": true
+        },
+        "sniffing": {
+          "enabled": true,
+          "destOverride": [
+            "http",
+            "tls",
+            "quic"
+          ]
+        }
+      },
+      {
+        "tag": "http",
+        "port": 10809,
+        "listen": "127.0.0.1",
+        "protocol": "http",
+        "sniffing": {
+          "enabled": true,
+          "destOverride": [
+            "http",
+            "tls",
+            "quic"
+          ]
+        }
+      }
+    ],
+    "outbounds": [
+      {
+        "tag": "auto-0",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "144.31.131.49",
+              "port": 9443,
+              "users": [
+                {
+                  "id": "041b836b-e2e4-4f7d-bb99-3e73ed40e3b8",
+                  "encryption": "none"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "security": "reality",
+          "xhttpSettings": {
+            "path": "/",
+            "mode": "auto"
+          },
+          "realitySettings": {
+            "serverName": "alb.speedload.online",
+            "publicKey": "J5ITJbg5FQFembAfkogKHHQB6DigsFXQxK7xu-QMWUs",
+            "shortId": "6b2f4e6ac9b1d2f0",
+            "fingerprint": "firefox"
+          }
+        },
+        "_locationHint": "🇦🇱Албания | XHTTP VPN#22",
+        "_sourceName": "🇦🇱Албания | XHTTP VPN#22"
+      },
+      {
+        "tag": "auto-1",
+        "protocol": "trojan",
+        "settings": {
+          "servers": [
+            {
+              "address": "144.31.1.218",
+              "port": 8443,
+              "password": "E7nVYbaVfPWVDqedaHtHRDb7vPvc6gm8"
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "cypr.speedload.online",
+            "fingerprint": "firefox",
+            "alpn": [
+              "h2",
+              "http/1.1"
+            ]
+          }
+        },
+        "_locationHint": "🇨🇾Кипр | Trojan VPN#1",
+        "_sourceName": "🇨🇾Кипр | Trojan VPN#1"
+      },
+      {
+        "tag": "auto-2",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "144.31.131.49",
+              "port": 8443,
+              "users": [
+                {
+                  "id": "041b836b-e2e4-4f7d-bb99-3e73ed40e3b8",
+                  "encryption": "none",
+                  "flow": "xtls-rprx-vision"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "alb.speedload.online",
+            "publicKey": "J5ITJbg5FQFembAfkogKHHQB6DigsFXQxK7xu-QMWUs",
+            "shortId": "a20d3ed244c76426",
+            "fingerprint": "firefox"
+          }
+        },
+        "_locationHint": "🇦🇱Албания | Reality VPN#21",
+        "_sourceName": "🇦🇱Албания | Reality VPN#21"
+      },
+      {
+        "tag": "auto-3",
+        "protocol": "trojan",
+        "settings": {
+          "servers": [
+            {
+              "address": "2.27.27.234",
+              "port": 7443,
+              "password": "E7nVYbaVfPWVDqedaHtHRDb7vPvc6gm8"
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "ice.speedload.online",
+            "fingerprint": "randomized",
+            "alpn": [
+              "h2",
+              "http/1.1"
+            ]
+          }
+        },
+        "_locationHint": "🇮🇸Исландия | Trojan VPN#19",
+        "_sourceName": "🇮🇸Исландия | Trojan VPN#19"
+      },
+      {
+        "tag": "auto-4",
+        "protocol": "trojan",
+        "settings": {
+          "servers": [
+            {
+              "address": "2.27.27.197",
+              "port": 7443,
+              "password": "E7nVYbaVfPWVDqedaHtHRDb7vPvc6gm8"
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "norw.speedload.online",
+            "fingerprint": "randomized",
+            "alpn": [
+              "h2",
+              "http/1.1"
+            ]
+          }
+        },
+        "_locationHint": "🇳🇴Норвегия | Trojan VPN#11",
+        "_sourceName": "🇳🇴Норвегия | Trojan VPN#11"
+      },
+      {
+        "tag": "auto-5",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "31.76.116.14",
+              "port": 8443,
+              "users": [
+                {
+                  "id": "041b836b-e2e4-4f7d-bb99-3e73ed40e3b8",
+                  "encryption": "none",
+                  "flow": "xtls-rprx-vision"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "node211.overgroup.cloud",
+            "publicKey": "J5ITJbg5FQFembAfkogKHHQB6DigsFXQxK7xu-QMWUs",
+            "shortId": "a20d3ed244c76426",
+            "fingerprint": "firefox"
+          }
+        },
+        "_locationHint": "🇵🇱Польша | Reality VPN#56⚡",
+        "_sourceName": "🇵🇱Польша | Reality VPN#56⚡"
+      },
+      {
+        "tag": "auto-6",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "194.180.207.83",
+              "port": 7443,
+              "users": [
+                {
+                  "id": "041b836b-e2e4-4f7d-bb99-3e73ed40e3b8",
+                  "encryption": "none"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "security": "reality",
+          "xhttpSettings": {
+            "path": "/",
+            "mode": "auto"
+          },
+          "realitySettings": {
+            "serverName": "node170.overcdn.ru",
+            "publicKey": "J5ITJbg5FQFembAfkogKHHQB6DigsFXQxK7xu-QMWUs",
+            "shortId": "6b2f4e6ac9b1d2f0",
+            "fingerprint": "firefox"
+          }
+        },
+        "_locationHint": "🇮🇹Италия | XHTTP VPN#40",
+        "_sourceName": "🇮🇹Италия | XHTTP VPN#40"
+      },
+      {
+        "tag": "auto-7",
+        "protocol": "trojan",
+        "settings": {
+          "servers": [
+            {
+              "address": "82.47.22.214",
+              "port": 4249,
+              "password": "E7nVYbaVfPWVDqedaHtHRDb7vPvc6gm8"
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "est.speedload.ru",
+            "fingerprint": "randomized",
+            "alpn": [
+              "h2",
+              "http/1.1"
+            ]
+          }
+        },
+        "_locationHint": "🇪🇪Эстония(VPN#29-Trojan)",
+        "_sourceName": "🇪🇪Эстония(VPN#29-Trojan)"
+      },
+      {
+        "tag": "auto-8",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "arborfrostcedar.coppermitten.one",
+              "port": 443,
+              "users": [
+                {
+                  "id": "9089c182-5b7b-4682-b432-e64d8e3b5743",
+                  "encryption": "none",
+                  "flow": "xtls-rprx-vision"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "arborfrostcedar.coppermitten.one",
+            "publicKey": "a2d3SdlFYm_JVsZ5Jdm7tefcXgsp9u5rDKL4SpMwAGY",
+            "shortId": "394742e7072b2c91",
+            "fingerprint": "firefox"
+          }
+        },
+        "_locationHint": "🇪🇪 Save VPN | Эстония",
+        "_sourceName": "🇪🇪 Save VPN | Эстония"
+      },
+      {
+        "tag": "auto-9",
+        "protocol": "trojan",
+        "settings": {
+          "servers": [
+            {
+              "address": "91.84.99.191",
+              "port": 7443,
+              "password": "E7nVYbaVfPWVDqedaHtHRDb7vPvc6gm8"
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "nl.serverstats.ru",
+            "fingerprint": "firefox",
+            "alpn": [
+              "h2",
+              "http/1.1"
+            ]
+          }
+        },
+        "_locationHint": "🇳🇱Нидерланды | Trojan VPN#23",
+        "_sourceName": "🇳🇱Нидерланды | Trojan VPN#23"
+      },
+      {
+        "tag": "auto-10",
+        "protocol": "trojan",
+        "settings": {
+          "servers": [
+            {
+              "address": "82.21.4.136",
+              "port": 7443,
+              "password": "E7nVYbaVfPWVDqedaHtHRDb7vPvc6gm8"
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "node18.overcdn.ru",
+            "fingerprint": "randomized",
+            "alpn": [
+              "h2",
+              "http/1.1"
+            ]
+          }
+        },
+        "_locationHint": "🇨🇭Швейцария | Trojan VPN#25",
+        "_sourceName": "🇨🇭Швейцария | Trojan VPN#25"
+      },
+      {
+        "tag": "auto-11",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "31.76.116.14",
+              "port": 8090,
+              "users": [
+                {
+                  "id": "041b836b-e2e4-4f7d-bb99-3e73ed40e3b8",
+                  "encryption": "none"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "grpc",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "node211.overgroup.cloud",
+            "publicKey": "J5ITJbg5FQFembAfkogKHHQB6DigsFXQxK7xu-QMWUs",
+            "shortId": "6b2f4e6ac9b1d2f0",
+            "fingerprint": "firefox"
+          }
+        },
+        "_locationHint": "🇵🇱Польша | gRPC VPN#57⚡",
+        "_sourceName": "🇵🇱Польша | gRPC VPN#57⚡"
+      },
+      {
+        "tag": "auto-12",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "194.180.207.83",
+              "port": 8443,
+              "users": [
+                {
+                  "id": "041b836b-e2e4-4f7d-bb99-3e73ed40e3b8",
+                  "encryption": "none",
+                  "flow": "xtls-rprx-vision"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "node170.overcdn.ru",
+            "publicKey": "J5ITJbg5FQFembAfkogKHHQB6DigsFXQxK7xu-QMWUs",
+            "shortId": "a20d3ed244c76426",
+            "fingerprint": "firefox"
+          }
+        },
+        "_locationHint": "🇮🇹Италия | Reality VPN#39",
+        "_sourceName": "🇮🇹Италия | Reality VPN#39"
+      },
+      {
+        "tag": "auto-13",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "89.110.84.116",
+              "port": 8443,
+              "users": [
+                {
+                  "id": "041b836b-e2e4-4f7d-bb99-3e73ed40e3b8",
+                  "encryption": "none",
+                  "flow": "xtls-rprx-vision"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "nl.rushtaxi.ru",
+            "publicKey": "J5ITJbg5FQFembAfkogKHHQB6DigsFXQxK7xu-QMWUs",
+            "shortId": "a20d3ed244c76426",
+            "fingerprint": "firefox"
+          }
+        },
+        "_locationHint": "🇳🇱Нидерланды | Reality VPN#51",
+        "_sourceName": "🇳🇱Нидерланды | Reality VPN#51"
+      },
+      {
+        "tag": "auto-14",
+        "protocol": "trojan",
+        "settings": {
+          "servers": [
+            {
+              "address": "31.76.116.14",
+              "port": 7443,
+              "password": "E7nVYbaVfPWVDqedaHtHRDb7vPvc6gm8"
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "node211.overgroup.cloud",
+            "fingerprint": "firefox",
+            "alpn": [
+              "h2",
+              "http/1.1"
+            ]
+          }
+        },
+        "_locationHint": "🇵🇱Польша(VPN#24-Trojan)",
+        "_sourceName": "🇵🇱Польша(VPN#24-Trojan)"
+      },
+      {
+        "tag": "auto-15",
+        "protocol": "trojan",
+        "settings": {
+          "servers": [
+            {
+              "address": "130.49.188.54",
+              "port": 7443,
+              "password": "E7nVYbaVfPWVDqedaHtHRDb7vPvc6gm8"
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "node22.overcdn.ru",
+            "fingerprint": "randomized",
+            "alpn": [
+              "h2",
+              "http/1.1"
+            ]
+          }
+        },
+        "_locationHint": "🇩🇰Дания| Trojan VPN#31",
+        "_sourceName": "🇩🇰Дания| Trojan VPN#31"
+      },
+      {
+        "tag": "auto-16",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "178.72.141.108",
+              "port": 9443,
+              "users": [
+                {
+                  "id": "041b836b-e2e4-4f7d-bb99-3e73ed40e3b8",
+                  "encryption": "none",
+                  "flow": "xtls-rprx-vision"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "rumost.overload.ovh",
+            "publicKey": "J5ITJbg5FQFembAfkogKHHQB6DigsFXQxK7xu-QMWUs",
+            "shortId": "a20d3ed244c76426",
+            "fingerprint": "firefox"
+          }
+        },
+        "_locationHint": "🇫🇮Финляндия(VPN#31-Мост⚡)",
+        "_sourceName": "🇫🇮Финляндия(VPN#31-Мост⚡)"
+      },
+      {
+        "tag": "auto-17",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "138.124.28.15",
+              "port": 8443,
+              "users": [
+                {
+                  "id": "041b836b-e2e4-4f7d-bb99-3e73ed40e3b8",
+                  "encryption": "none",
+                  "flow": "xtls-rprx-vision"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "deone.serverstats.ru",
+            "publicKey": "J5ITJbg5FQFembAfkogKHHQB6DigsFXQxK7xu-QMWUs",
+            "shortId": "a20d3ed244c76426",
+            "fingerprint": "firefox"
+          }
+        },
+        "_locationHint": "🇩🇪Германия | Reality VPN#47",
+        "_sourceName": "🇩🇪Германия | Reality VPN#47"
+      },
+      {
+        "tag": "auto-18",
+        "protocol": "trojan",
+        "settings": {
+          "servers": [
+            {
+              "address": "144.31.50.117",
+              "port": 7443,
+              "password": "E7nVYbaVfPWVDqedaHtHRDb7vPvc6gm8"
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "ch.federal-usa.com",
+            "fingerprint": "randomized",
+            "alpn": [
+              "h2",
+              "http/1.1"
+            ]
+          }
+        },
+        "_locationHint": "🇨🇳Китай | Trojan VPN#10",
+        "_sourceName": "🇨🇳Китай | Trojan VPN#10"
+      },
+      {
+        "tag": "auto-19",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "178.72.141.108",
+              "port": 7443,
+              "users": [
+                {
+                  "id": "041b836b-e2e4-4f7d-bb99-3e73ed40e3b8",
+                  "encryption": "none",
+                  "flow": "xtls-rprx-vision"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "rumost.overload.ovh",
+            "publicKey": "J5ITJbg5FQFembAfkogKHHQB6DigsFXQxK7xu-QMWUs",
+            "shortId": "a20d3ed244c76426",
+            "fingerprint": "firefox"
+          }
+        },
+        "_locationHint": "🇩🇪Германия(VPN#32-Мост⚡)",
+        "_sourceName": "🇩🇪Германия(VPN#32-Мост⚡)"
+      },
+      {
+        "tag": "auto-20",
+        "protocol": "trojan",
+        "settings": {
+          "servers": [
+            {
+              "address": "31.77.31.5",
+              "port": 8443,
+              "password": "E7nVYbaVfPWVDqedaHtHRDb7vPvc6gm8"
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "node44.overcdn.ru",
+            "fingerprint": "firefox",
+            "alpn": [
+              "h2",
+              "http/1.1"
+            ]
+          }
+        },
+        "_locationHint": "🇩🇪Германия(VPN#27-Trojan)",
+        "_sourceName": "🇩🇪Германия(VPN#27-Trojan)"
+      },
+      {
+        "tag": "auto-21",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "91.206.14.229",
+              "port": 9443,
+              "users": [
+                {
+                  "id": "041b836b-e2e4-4f7d-bb99-3e73ed40e3b8",
+                  "encryption": "none"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "security": "reality",
+          "xhttpSettings": {
+            "path": "/",
+            "mode": "auto"
+          },
+          "realitySettings": {
+            "serverName": "rumost.overload.ovh",
+            "publicKey": "J5ITJbg5FQFembAfkogKHHQB6DigsFXQxK7xu-QMWUs",
+            "shortId": "6b2f4e6ac9b1d2f0",
+            "fingerprint": "qq"
+          }
+        },
+        "_locationHint": "🇵🇱Польша | XHTTP VPN#6",
+        "_sourceName": "🇵🇱Польша | XHTTP VPN#6"
+      },
+      {
+        "tag": "auto-22",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "91.206.14.229",
+              "port": 6443,
+              "users": [
+                {
+                  "id": "041b836b-e2e4-4f7d-bb99-3e73ed40e3b8",
+                  "encryption": "none",
+                  "flow": "xtls-rprx-vision"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "rumost.overload.ovh",
+            "publicKey": "J5ITJbg5FQFembAfkogKHHQB6DigsFXQxK7xu-QMWUs",
+            "shortId": "a20d3ed244c76426",
+            "fingerprint": "qq"
+          }
+        },
+        "_locationHint": "🇵🇱Польша | Reality VPN#5",
+        "_sourceName": "🇵🇱Польша | Reality VPN#5"
+      },
+      {
+        "tag": "auto-23",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "droblevov-xirono.thicketpond.dev",
+              "port": 443,
+              "users": [
+                {
+                  "id": "9089c182-5b7b-4682-b432-e64d8e3b5743",
+                  "encryption": "none",
+                  "flow": "xtls-rprx-vision"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "droblevov-xirono.thicketpond.dev",
+            "publicKey": "f_bFaksQOoVyhloR3wrRvk5tTg10DasjJyyFSkXwMj0",
+            "shortId": "ed48dbbed3cd8468",
+            "fingerprint": "firefox"
+          }
+        },
+        "_locationHint": "🇩🇪 Save VPN | Германия",
+        "_sourceName": "🇩🇪 Save VPN | Германия"
+      },
+      {
+        "tag": "auto-24",
+        "protocol": "trojan",
+        "settings": {
+          "servers": [
+            {
+              "address": "144.31.50.117",
+              "port": 9443,
+              "password": "E7nVYbaVfPWVDqedaHtHRDb7vPvc6gm8"
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "viet.federal-usa.com",
+            "fingerprint": "randomized",
+            "alpn": [
+              "h2",
+              "http/1.1"
+            ]
+          }
+        },
+        "_locationHint": "🇻🇳Вьетнам | Trojan VPN#12",
+        "_sourceName": "🇻🇳Вьетнам | Trojan VPN#12"
+      },
+      {
+        "tag": "direct",
+        "protocol": "freedom",
+        "settings": {}
+      },
+      {
+        "tag": "block",
+        "protocol": "blackhole",
+        "settings": {}
+      }
+    ],
+    "routing": {
+      "domainStrategy": "IPIfNonMatch",
+      "balancers": [
+        {
+          "tag": "auto-balancer",
+          "selector": [
+            "auto-"
+          ],
+          "fallbackTag": "auto-0",
+          "strategy": {
+            "type": "leastLoad",
+            "settings": {
+              "maxRTT": "900ms",
+              "expected": 1,
+              "tolerance": 0.1
+            }
+          }
+        }
+      ],
+      "rules": [
+        {
+          "type": "field",
+          "domain": [
+            "geosite:category-ru"
+          ],
+          "outboundTag": "direct",
+          "remarks": "RU-DIRECT: geosite:category-ru"
+        },
+        {
+          "type": "field",
+          "ip": [
+            "geoip:ru"
+          ],
+          "outboundTag": "direct",
+          "remarks": "RU-DIRECT: geoip:ru"
+        },
+        {
+          "type": "field",
+          "ip": [
+            "0.0.0.0/8",
+            "10.0.0.0/8",
+            "127.0.0.0/8",
+            "169.254.0.0/16",
+            "172.16.0.0/12",
+            "192.168.0.0/16",
+            "::1/128",
+            "fc00::/7",
+            "fe80::/10"
+          ],
+          "outboundTag": "direct",
+          "remarks": "PRIVATE-DIRECT"
+        },
+        {
+          "type": "field",
+          "network": "tcp,udp",
+          "balancerTag": "auto-balancer"
+        }
+      ]
+    },
+    "observatory": {
+      "subjectSelector": [
+        "auto-"
+      ],
+      "probeUrl": "https://www.gstatic.com/generate_204",
+      "probeInterval": "10s",
+      "enableConcurrency": true
+    }
+  },
+  {
+    "remarks": "🇪🇺📶 Авто 🤗📶 Чебурнет 🤗💣БС",
+    "log": {
+      "loglevel": "warning"
+    },
+    "dns": {
+      "servers": [
+        "1.1.1.1",
+        "1.0.0.1"
+      ],
+      "queryStrategy": "UseIPv4",
+      "disableFallback": false
+    },
+    "inbounds": [
+      {
+        "tag": "socks",
+        "port": 10808,
+        "listen": "127.0.0.1",
+        "protocol": "socks",
+        "settings": {
+          "udp": true
+        },
+        "sniffing": {
+          "enabled": true,
+          "destOverride": [
+            "http",
+            "tls",
+            "quic"
+          ]
+        }
+      },
+      {
+        "tag": "http",
+        "port": 10809,
+        "listen": "127.0.0.1",
+        "protocol": "http",
+        "sniffing": {
+          "enabled": true,
+          "destOverride": [
+            "http",
+            "tls",
+            "quic"
+          ]
+        }
+      }
+    ],
+    "outbounds": [
+      {
+        "tag": "bs-0",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "178.248.236.193",
+              "port": 8443,
+              "users": [
+                {
+                  "id": "041b836b-e2e4-4f7d-bb99-3e73ed40e3b8",
+                  "encryption": "none",
+                  "flow": "xtls-rprx-vision"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "magic.speedload.ru",
+            "publicKey": "J5ITJbg5FQFembAfkogKHHQB6DigsFXQxK7xu-QMWUs",
+            "shortId": "a20d3ed244c76426",
+            "fingerprint": "firefox"
+          }
+        },
+        "_locationHint": "🇷🇺Москва(Обход#6-Trojan)",
+        "_sourceName": "🇷🇺Москва(Обход#6-Trojan)"
+      },
+      {
+        "tag": "bs-1",
+        "protocol": "trojan",
+        "settings": {
+          "servers": [
+            {
+              "address": "37.18.15.239",
+              "port": 443,
+              "password": "E7nVYbaVfPWVDqedaHtHRDb7vPvc6gm8"
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "node225.overgroup.cloud",
+            "fingerprint": "firefox",
+            "alpn": [
+              "h2",
+              "http/1.1"
+            ]
+          }
+        },
+        "_locationHint": "🇳🇱Нидерланды(Обход#11-Trojan)",
+        "_sourceName": "🇳🇱Нидерланды(Обход#11-Trojan)"
+      },
+      {
+        "tag": "bs-2",
+        "protocol": "trojan",
+        "settings": {
+          "servers": [
+            {
+              "address": "78.159.250.173",
+              "port": 443,
+              "password": "E7nVYbaVfPWVDqedaHtHRDb7vPvc6gm8"
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "node226.overgroup.cloud",
+            "fingerprint": "firefox",
+            "alpn": [
+              "h2",
+              "http/1.1"
+            ]
+          }
+        },
+        "_locationHint": "🇳🇱Нидерланды(Обход#14-Trojan)",
+        "_sourceName": "🇳🇱Нидерланды(Обход#14-Trojan)"
+      },
+      {
+        "tag": "bs-3",
+        "protocol": "trojan",
+        "settings": {
+          "servers": [
+            {
+              "address": "78.159.250.227",
+              "port": 443,
+              "password": "E7nVYbaVfPWVDqedaHtHRDb7vPvc6gm8"
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "node225.overgroup.cloud",
+            "fingerprint": "firefox",
+            "alpn": [
+              "h2",
+              "http/1.1"
+            ]
+          }
+        },
+        "_locationHint": "🇳🇱Нидерланды(Обход#10-Trojan)",
+        "_sourceName": "🇳🇱Нидерланды(Обход#10-Trojan)"
+      },
+      {
+        "tag": "bs-4",
+        "protocol": "trojan",
+        "settings": {
+          "servers": [
+            {
+              "address": "78.159.245.35",
+              "port": 443,
+              "password": "E7nVYbaVfPWVDqedaHtHRDb7vPvc6gm8"
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "node226.overgroup.cloud",
+            "fingerprint": "firefox",
+            "alpn": [
+              "h2",
+              "http/1.1"
+            ]
+          }
+        },
+        "_locationHint": "🇳🇱Нидерланды(Обход#13-Trojan)",
+        "_sourceName": "🇳🇱Нидерланды(Обход#13-Trojan)"
+      },
+      {
+        "tag": "bs-5",
+        "protocol": "trojan",
+        "settings": {
+          "servers": [
+            {
+              "address": "151.236.114.215",
+              "port": 443,
+              "password": "E7nVYbaVfPWVDqedaHtHRDb7vPvc6gm8"
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "node225.overgroup.cloud",
+            "fingerprint": "firefox",
+            "alpn": [
+              "h2",
+              "http/1.1"
+            ]
+          }
+        },
+        "_locationHint": "🇳🇱Нидерланды(Обход#12-Trojan)",
+        "_sourceName": "🇳🇱Нидерланды(Обход#12-Trojan)"
+      },
+      {
+        "tag": "bs-6",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "217.19.122.142",
+              "port": 15565,
+              "users": [
+                {
+                  "id": "b7e2cb04-7aa1-44f5-9bd1-b04b0acbda98",
+                  "encryption": "none"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "grpc",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "iv.kommersant.ru",
+            "publicKey": "5nRL3eh_pQWHdej0It-V9mOapVLSi4PgkgjG9iqhpSw",
+            "shortId": "a5bd715862513387",
+            "fingerprint": "qq"
+          }
+        },
+        "_locationHint": "ext-white-internet-13",
+        "_sourceName": "ext-white-internet-13"
+      },
+      {
+        "tag": "bs-7",
+        "protocol": "trojan",
+        "settings": {
+          "servers": [
+            {
+              "address": "fl.federal-usa.com",
+              "port": 8443,
+              "password": "E7nVYbaVfPWVDqedaHtHRDb7vPvc6gm8"
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "est.speedload.ru",
+            "fingerprint": "firefox",
+            "alpn": [
+              "h2",
+              "http/1.1"
+            ]
+          }
+        },
+        "_locationHint": "🇪🇪 Эстония",
+        "_sourceName": "🇪🇪 Эстония"
+      },
+      {
+        "tag": "bs-8",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "78.159.245.182",
+              "port": 15565,
+              "users": [
+                {
+                  "id": "b7e2cb04-7aa1-44f5-9bd1-b04b0acbda98",
+                  "encryption": "none"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "grpc",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "iv.kommersant.ru",
+            "publicKey": "5nRL3eh_pQWHdej0It-V9mOapVLSi4PgkgjG9iqhpSw",
+            "shortId": "a5bd715862513387",
+            "fingerprint": "qq"
+          }
+        },
+        "_locationHint": "ext-white-internet-4",
+        "_sourceName": "ext-white-internet-4"
+      },
+      {
+        "tag": "bs-9",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "178.248.236.193",
+              "port": 6443,
+              "users": [
+                {
+                  "id": "041b836b-e2e4-4f7d-bb99-3e73ed40e3b8",
+                  "encryption": "none",
+                  "flow": "xtls-rprx-vision"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "node208.overgroup.cloud",
+            "publicKey": "J5ITJbg5FQFembAfkogKHHQB6DigsFXQxK7xu-QMWUs",
+            "shortId": "a20d3ed244c76426",
+            "fingerprint": "firefox"
+          }
+        },
+        "_locationHint": "🇪🇪Эстония(Обход#9-Trojan)",
+        "_sourceName": "🇪🇪Эстония(Обход#9-Trojan)"
+      },
+      {
+        "tag": "bs-10",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "78.159.245.25",
+              "port": 15565,
+              "users": [
+                {
+                  "id": "b7e2cb04-7aa1-44f5-9bd1-b04b0acbda98",
+                  "encryption": "none"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "grpc",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "iv.kommersant.ru",
+            "publicKey": "5nRL3eh_pQWHdej0It-V9mOapVLSi4PgkgjG9iqhpSw",
+            "shortId": "a5bd715862513387",
+            "fingerprint": "qq"
+          }
+        },
+        "_locationHint": "ext-white-internet-5",
+        "_sourceName": "ext-white-internet-5"
+      },
+      {
+        "tag": "bs-11",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "78.159.245.15",
+              "port": 15565,
+              "users": [
+                {
+                  "id": "b7e2cb04-7aa1-44f5-9bd1-b04b0acbda98",
+                  "encryption": "none"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "grpc",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "iv.kommersant.ru",
+            "publicKey": "5nRL3eh_pQWHdej0It-V9mOapVLSi4PgkgjG9iqhpSw",
+            "shortId": "a5bd715862513387",
+            "fingerprint": "qq"
+          }
+        },
+        "_locationHint": "ext-white-internet-1",
+        "_sourceName": "ext-white-internet-1"
+      },
+      {
+        "tag": "bs-12",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "178.248.236.193",
+              "port": 9443,
+              "users": [
+                {
+                  "id": "041b836b-e2e4-4f7d-bb99-3e73ed40e3b8",
+                  "encryption": "none",
+                  "flow": "xtls-rprx-vision"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "node41.overcdn.ru",
+            "publicKey": "J5ITJbg5FQFembAfkogKHHQB6DigsFXQxK7xu-QMWUs",
+            "shortId": "a20d3ed244c76426",
+            "fingerprint": "firefox"
+          }
+        },
+        "_locationHint": "🇩🇪Германия(Обход#8-Trojan)",
+        "_sourceName": "🇩🇪Германия(Обход#8-Trojan)"
+      },
+      {
+        "tag": "bs-13",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "217.19.122.20",
+              "port": 15565,
+              "users": [
+                {
+                  "id": "b7e2cb04-7aa1-44f5-9bd1-b04b0acbda98",
+                  "encryption": "none"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "grpc",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "iv.kommersant.ru",
+            "publicKey": "5nRL3eh_pQWHdej0It-V9mOapVLSi4PgkgjG9iqhpSw",
+            "shortId": "a5bd715862513387",
+            "fingerprint": "qq"
+          }
+        },
+        "_locationHint": "ext-white-internet-12",
+        "_sourceName": "ext-white-internet-12"
+      },
+      {
+        "tag": "bs-14",
+        "protocol": "trojan",
+        "settings": {
+          "servers": [
+            {
+              "address": "194.55.239.83",
+              "port": 8443,
+              "password": "E7nVYbaVfPWVDqedaHtHRDb7vPvc6gm8"
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "est.speedload.ru",
+            "fingerprint": "firefox",
+            "alpn": [
+              "h2",
+              "http/1.1"
+            ]
+          }
+        },
+        "_locationHint": "🇪🇪Эстония(Обход#17-Trojan)",
+        "_sourceName": "🇪🇪Эстония(Обход#17-Trojan)"
+      },
+      {
+        "tag": "bs-15",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "78.159.245.44",
+              "port": 15565,
+              "users": [
+                {
+                  "id": "b7e2cb04-7aa1-44f5-9bd1-b04b0acbda98",
+                  "encryption": "none"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "grpc",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "iv.kommersant.ru",
+            "publicKey": "5nRL3eh_pQWHdej0It-V9mOapVLSi4PgkgjG9iqhpSw",
+            "shortId": "a5bd715862513387",
+            "fingerprint": "qq"
+          }
+        },
+        "_locationHint": "ext-white-internet-10",
+        "_sourceName": "ext-white-internet-10"
+      },
+      {
+        "tag": "direct",
+        "protocol": "freedom",
+        "settings": {}
+      },
+      {
+        "tag": "block",
+        "protocol": "blackhole",
+        "settings": {}
+      }
+    ],
+    "routing": {
+      "domainStrategy": "IPIfNonMatch",
+      "balancers": [
+        {
+          "tag": "bs-balancer",
+          "selector": [
+            "bs-"
+          ],
+          "fallbackTag": "bs-0",
+          "strategy": {
+            "type": "leastLoad",
+            "settings": {
+              "maxRTT": "900ms",
+              "expected": 1,
+              "tolerance": 0.1
+            }
+          }
+        }
+      ],
+      "rules": [
+        {
+          "type": "field",
+          "domain": [
+            "geosite:category-ru"
+          ],
+          "outboundTag": "direct",
+          "remarks": "RU-DIRECT: geosite:category-ru"
+        },
+        {
+          "type": "field",
+          "ip": [
+            "geoip:ru"
+          ],
+          "outboundTag": "direct",
+          "remarks": "RU-DIRECT: geoip:ru"
+        },
+        {
+          "type": "field",
+          "ip": [
+            "0.0.0.0/8",
+            "10.0.0.0/8",
+            "127.0.0.0/8",
+            "169.254.0.0/16",
+            "172.16.0.0/12",
+            "192.168.0.0/16",
+            "::1/128",
+            "fc00::/7",
+            "fe80::/10"
+          ],
+          "outboundTag": "direct",
+          "remarks": "PRIVATE-DIRECT"
+        },
+        {
+          "type": "field",
+          "network": "tcp,udp",
+          "balancerTag": "bs-balancer"
+        }
+      ]
+    },
+    "observatory": {
+      "subjectSelector": [
+        "bs-"
+      ],
+      "probeUrl": "https://www.gstatic.com/generate_204",
+      "probeInterval": "10s",
+      "enableConcurrency": true
+    }
+  },
+  {
+    "remarks": "🛜 🇦🇱 Албания 🤗",
+    "log": {
+      "loglevel": "warning"
+    },
+    "dns": {
+      "servers": [
+        "1.1.1.1",
+        "1.0.0.1"
+      ],
+      "queryStrategy": "UseIPv4",
+      "disableFallback": false
+    },
+    "inbounds": [
+      {
+        "tag": "socks",
+        "port": 10808,
+        "listen": "127.0.0.1",
+        "protocol": "socks",
+        "settings": {
+          "udp": true
+        },
+        "sniffing": {
+          "enabled": true,
+          "destOverride": [
+            "http",
+            "tls",
+            "quic"
+          ]
+        }
+      },
+      {
+        "tag": "http",
+        "port": 10809,
+        "listen": "127.0.0.1",
+        "protocol": "http",
+        "sniffing": {
+          "enabled": true,
+          "destOverride": [
+            "http",
+            "tls",
+            "quic"
+          ]
+        }
+      }
+    ],
+    "outbounds": [
+      {
+        "tag": "proxy",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "144.31.131.49",
+              "port": 9443,
+              "users": [
+                {
+                  "id": "041b836b-e2e4-4f7d-bb99-3e73ed40e3b8",
+                  "encryption": "none"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "security": "reality",
+          "xhttpSettings": {
+            "path": "/",
+            "mode": "auto"
+          },
+          "realitySettings": {
+            "serverName": "alb.speedload.online",
+            "publicKey": "J5ITJbg5FQFembAfkogKHHQB6DigsFXQxK7xu-QMWUs",
+            "shortId": "6b2f4e6ac9b1d2f0",
+            "fingerprint": "firefox"
+          }
+        }
+      },
+      {
+        "tag": "direct",
+        "protocol": "freedom",
+        "settings": {}
+      },
+      {
+        "tag": "block",
+        "protocol": "blackhole",
+        "settings": {}
+      }
+    ],
+    "routing": {
+      "domainStrategy": "IPIfNonMatch",
+      "rules": [
+        {
+          "type": "field",
+          "domain": [
+            "geosite:category-ru"
+          ],
+          "outboundTag": "direct",
+          "remarks": "RU-DIRECT: geosite:category-ru"
+        },
+        {
+          "type": "field",
+          "ip": [
+            "geoip:ru"
+          ],
+          "outboundTag": "direct",
+          "remarks": "RU-DIRECT: geoip:ru"
+        },
+        {
+          "type": "field",
+          "ip": [
+            "0.0.0.0/8",
+            "10.0.0.0/8",
+            "127.0.0.0/8",
+            "169.254.0.0/16",
+            "172.16.0.0/12",
+            "192.168.0.0/16",
+            "::1/128",
+            "fc00::/7",
+            "fe80::/10"
+          ],
+          "outboundTag": "direct",
+          "remarks": "PRIVATE-DIRECT"
+        },
+        {
+          "type": "field",
+          "ip": [
+            "0.0.0.0/8",
+            "10.0.0.0/8",
+            "127.0.0.0/8",
+            "169.254.0.0/16",
+            "172.16.0.0/12",
+            "192.168.0.0/16",
+            "::1/128",
+            "fc00::/7",
+            "fe80::/10"
+          ],
+          "outboundTag": "direct"
+        },
+        {
+          "type": "field",
+          "network": "tcp,udp",
+          "outboundTag": "proxy"
+        },
+        {
+          "type": "field",
+          "network": "tcp,udp",
+          "outboundTag": "proxy",
+          "remarks": "DEFAULT-PROXY"
+        }
+      ],
+      "balancers": []
+    }
+  },
+  {
+    "remarks": "🛜 🇨🇾 Кипр 🤗",
+    "log": {
+      "loglevel": "warning"
+    },
+    "dns": {
+      "servers": [
+        "1.1.1.1",
+        "1.0.0.1"
+      ],
+      "queryStrategy": "UseIPv4",
+      "disableFallback": false
+    },
+    "inbounds": [
+      {
+        "tag": "socks",
+        "port": 10808,
+        "listen": "127.0.0.1",
+        "protocol": "socks",
+        "settings": {
+          "udp": true
+        },
+        "sniffing": {
+          "enabled": true,
+          "destOverride": [
+            "http",
+            "tls",
+            "quic"
+          ]
+        }
+      },
+      {
+        "tag": "http",
+        "port": 10809,
+        "listen": "127.0.0.1",
+        "protocol": "http",
+        "sniffing": {
+          "enabled": true,
+          "destOverride": [
+            "http",
+            "tls",
+            "quic"
+          ]
+        }
+      }
+    ],
+    "outbounds": [
+      {
+        "tag": "proxy",
+        "protocol": "trojan",
+        "settings": {
+          "servers": [
+            {
+              "address": "144.31.1.218",
+              "port": 8443,
+              "password": "E7nVYbaVfPWVDqedaHtHRDb7vPvc6gm8"
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "cypr.speedload.online",
+            "fingerprint": "firefox",
+            "alpn": [
+              "h2",
+              "http/1.1"
+            ]
+          }
+        }
+      },
+      {
+        "tag": "direct",
+        "protocol": "freedom",
+        "settings": {}
+      },
+      {
+        "tag": "block",
+        "protocol": "blackhole",
+        "settings": {}
+      }
+    ],
+    "routing": {
+      "domainStrategy": "IPIfNonMatch",
+      "rules": [
+        {
+          "type": "field",
+          "domain": [
+            "geosite:category-ru"
+          ],
+          "outboundTag": "direct",
+          "remarks": "RU-DIRECT: geosite:category-ru"
+        },
+        {
+          "type": "field",
+          "ip": [
+            "geoip:ru"
+          ],
+          "outboundTag": "direct",
+          "remarks": "RU-DIRECT: geoip:ru"
+        },
+        {
+          "type": "field",
+          "ip": [
+            "0.0.0.0/8",
+            "10.0.0.0/8",
+            "127.0.0.0/8",
+            "169.254.0.0/16",
+            "172.16.0.0/12",
+            "192.168.0.0/16",
+            "::1/128",
+            "fc00::/7",
+            "fe80::/10"
+          ],
+          "outboundTag": "direct",
+          "remarks": "PRIVATE-DIRECT"
+        },
+        {
+          "type": "field",
+          "ip": [
+            "0.0.0.0/8",
+            "10.0.0.0/8",
+            "127.0.0.0/8",
+            "169.254.0.0/16",
+            "172.16.0.0/12",
+            "192.168.0.0/16",
+            "::1/128",
+            "fc00::/7",
+            "fe80::/10"
+          ],
+          "outboundTag": "direct"
+        },
+        {
+          "type": "field",
+          "network": "tcp,udp",
+          "outboundTag": "proxy"
+        },
+        {
+          "type": "field",
+          "network": "tcp,udp",
+          "outboundTag": "proxy",
+          "remarks": "DEFAULT-PROXY"
+        }
+      ],
+      "balancers": []
+    }
+  },
+  {
+    "remarks": "🛜 🇦🇱 Албания 🤗",
+    "log": {
+      "loglevel": "warning"
+    },
+    "dns": {
+      "servers": [
+        "1.1.1.1",
+        "1.0.0.1"
+      ],
+      "queryStrategy": "UseIPv4",
+      "disableFallback": false
+    },
+    "inbounds": [
+      {
+        "tag": "socks",
+        "port": 10808,
+        "listen": "127.0.0.1",
+        "protocol": "socks",
+        "settings": {
+          "udp": true
+        },
+        "sniffing": {
+          "enabled": true,
+          "destOverride": [
+            "http",
+            "tls",
+            "quic"
+          ]
+        }
+      },
+      {
+        "tag": "http",
+        "port": 10809,
+        "listen": "127.0.0.1",
+        "protocol": "http",
+        "sniffing": {
+          "enabled": true,
+          "destOverride": [
+            "http",
+            "tls",
+            "quic"
+          ]
+        }
+      }
+    ],
+    "outbounds": [
+      {
+        "tag": "proxy",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "144.31.131.49",
+              "port": 8443,
+              "users": [
+                {
+                  "id": "041b836b-e2e4-4f7d-bb99-3e73ed40e3b8",
+                  "encryption": "none",
+                  "flow": "xtls-rprx-vision"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "alb.speedload.online",
+            "publicKey": "J5ITJbg5FQFembAfkogKHHQB6DigsFXQxK7xu-QMWUs",
+            "shortId": "a20d3ed244c76426",
+            "fingerprint": "firefox"
+          }
+        }
+      },
+      {
+        "tag": "direct",
+        "protocol": "freedom",
+        "settings": {}
+      },
+      {
+        "tag": "block",
+        "protocol": "blackhole",
+        "settings": {}
+      }
+    ],
+    "routing": {
+      "domainStrategy": "IPIfNonMatch",
+      "rules": [
+        {
+          "type": "field",
+          "domain": [
+            "geosite:category-ru"
+          ],
+          "outboundTag": "direct",
+          "remarks": "RU-DIRECT: geosite:category-ru"
+        },
+        {
+          "type": "field",
+          "ip": [
+            "geoip:ru"
+          ],
+          "outboundTag": "direct",
+          "remarks": "RU-DIRECT: geoip:ru"
+        },
+        {
+          "type": "field",
+          "ip": [
+            "0.0.0.0/8",
+            "10.0.0.0/8",
+            "127.0.0.0/8",
+            "169.254.0.0/16",
+            "172.16.0.0/12",
+            "192.168.0.0/16",
+            "::1/128",
+            "fc00::/7",
+            "fe80::/10"
+          ],
+          "outboundTag": "direct",
+          "remarks": "PRIVATE-DIRECT"
+        },
+        {
+          "type": "field",
+          "ip": [
+            "0.0.0.0/8",
+            "10.0.0.0/8",
+            "127.0.0.0/8",
+            "169.254.0.0/16",
+            "172.16.0.0/12",
+            "192.168.0.0/16",
+            "::1/128",
+            "fc00::/7",
+            "fe80::/10"
+          ],
+          "outboundTag": "direct"
+        },
+        {
+          "type": "field",
+          "network": "tcp,udp",
+          "outboundTag": "proxy"
+        },
+        {
+          "type": "field",
+          "network": "tcp,udp",
+          "outboundTag": "proxy",
+          "remarks": "DEFAULT-PROXY"
+        }
+      ],
+      "balancers": []
+    }
+  },
+  {
+    "remarks": "🛜 🇮🇸 Исландия 🤗",
+    "log": {
+      "loglevel": "warning"
+    },
+    "dns": {
+      "servers": [
+        "1.1.1.1",
+        "1.0.0.1"
+      ],
+      "queryStrategy": "UseIPv4",
+      "disableFallback": false
+    },
+    "inbounds": [
+      {
+        "tag": "socks",
+        "port": 10808,
+        "listen": "127.0.0.1",
+        "protocol": "socks",
+        "settings": {
+          "udp": true
+        },
+        "sniffing": {
+          "enabled": true,
+          "destOverride": [
+            "http",
+            "tls",
+            "quic"
+          ]
+        }
+      },
+      {
+        "tag": "http",
+        "port": 10809,
+        "listen": "127.0.0.1",
+        "protocol": "http",
+        "sniffing": {
+          "enabled": true,
+          "destOverride": [
+            "http",
+            "tls",
+            "quic"
+          ]
+        }
+      }
+    ],
+    "outbounds": [
+      {
+        "tag": "proxy",
+        "protocol": "trojan",
+        "settings": {
+          "servers": [
+            {
+              "address": "2.27.27.234",
+              "port": 7443,
+              "password": "E7nVYbaVfPWVDqedaHtHRDb7vPvc6gm8"
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "ice.speedload.online",
+            "fingerprint": "randomized",
+            "alpn": [
+              "h2",
+              "http/1.1"
+            ]
+          }
+        }
+      },
+      {
+        "tag": "direct",
+        "protocol": "freedom",
+        "settings": {}
+      },
+      {
+        "tag": "block",
+        "protocol": "blackhole",
+        "settings": {}
+      }
+    ],
+    "routing": {
+      "domainStrategy": "IPIfNonMatch",
+      "rules": [
+        {
+          "type": "field",
+          "domain": [
+            "geosite:category-ru"
+          ],
+          "outboundTag": "direct",
+          "remarks": "RU-DIRECT: geosite:category-ru"
+        },
+        {
+          "type": "field",
+          "ip": [
+            "geoip:ru"
+          ],
+          "outboundTag": "direct",
+          "remarks": "RU-DIRECT: geoip:ru"
+        },
+        {
+          "type": "field",
+          "ip": [
+            "0.0.0.0/8",
+            "10.0.0.0/8",
+            "127.0.0.0/8",
+            "169.254.0.0/16",
+            "172.16.0.0/12",
+            "192.168.0.0/16",
+            "::1/128",
+            "fc00::/7",
+            "fe80::/10"
+          ],
+          "outboundTag": "direct",
+          "remarks": "PRIVATE-DIRECT"
+        },
+        {
+          "type": "field",
+          "ip": [
+            "0.0.0.0/8",
+            "10.0.0.0/8",
+            "127.0.0.0/8",
+            "169.254.0.0/16",
+            "172.16.0.0/12",
+            "192.168.0.0/16",
+            "::1/128",
+            "fc00::/7",
+            "fe80::/10"
+          ],
+          "outboundTag": "direct"
+        },
+        {
+          "type": "field",
+          "network": "tcp,udp",
+          "outboundTag": "proxy"
+        },
+        {
+          "type": "field",
+          "network": "tcp,udp",
+          "outboundTag": "proxy",
+          "remarks": "DEFAULT-PROXY"
+        }
+      ],
+      "balancers": []
+    }
+  },
+  {
+    "remarks": "🛜 🇳🇴 Норвегия 🤗",
+    "log": {
+      "loglevel": "warning"
+    },
+    "dns": {
+      "servers": [
+        "1.1.1.1",
+        "1.0.0.1"
+      ],
+      "queryStrategy": "UseIPv4",
+      "disableFallback": false
+    },
+    "inbounds": [
+      {
+        "tag": "socks",
+        "port": 10808,
+        "listen": "127.0.0.1",
+        "protocol": "socks",
+        "settings": {
+          "udp": true
+        },
+        "sniffing": {
+          "enabled": true,
+          "destOverride": [
+            "http",
+            "tls",
+            "quic"
+          ]
+        }
+      },
+      {
+        "tag": "http",
+        "port": 10809,
+        "listen": "127.0.0.1",
+        "protocol": "http",
+        "sniffing": {
+          "enabled": true,
+          "destOverride": [
+            "http",
+            "tls",
+            "quic"
+          ]
+        }
+      }
+    ],
+    "outbounds": [
+      {
+        "tag": "proxy",
+        "protocol": "trojan",
+        "settings": {
+          "servers": [
+            {
+              "address": "2.27.27.197",
+              "port": 7443,
+              "password": "E7nVYbaVfPWVDqedaHtHRDb7vPvc6gm8"
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "norw.speedload.online",
+            "fingerprint": "randomized",
+            "alpn": [
+              "h2",
+              "http/1.1"
+            ]
+          }
+        }
+      },
+      {
+        "tag": "direct",
+        "protocol": "freedom",
+        "settings": {}
+      },
+      {
+        "tag": "block",
+        "protocol": "blackhole",
+        "settings": {}
+      }
+    ],
+    "routing": {
+      "domainStrategy": "IPIfNonMatch",
+      "rules": [
+        {
+          "type": "field",
+          "domain": [
+            "geosite:category-ru"
+          ],
+          "outboundTag": "direct",
+          "remarks": "RU-DIRECT: geosite:category-ru"
+        },
+        {
+          "type": "field",
+          "ip": [
+            "geoip:ru"
+          ],
+          "outboundTag": "direct",
+          "remarks": "RU-DIRECT: geoip:ru"
+        },
+        {
+          "type": "field",
+          "ip": [
+            "0.0.0.0/8",
+            "10.0.0.0/8",
+            "127.0.0.0/8",
+            "169.254.0.0/16",
+            "172.16.0.0/12",
+            "192.168.0.0/16",
+            "::1/128",
+            "fc00::/7",
+            "fe80::/10"
+          ],
+          "outboundTag": "direct",
+          "remarks": "PRIVATE-DIRECT"
+        },
+        {
+          "type": "field",
+          "ip": [
+            "0.0.0.0/8",
+            "10.0.0.0/8",
+            "127.0.0.0/8",
+            "169.254.0.0/16",
+            "172.16.0.0/12",
+            "192.168.0.0/16",
+            "::1/128",
+            "fc00::/7",
+            "fe80::/10"
+          ],
+          "outboundTag": "direct"
+        },
+        {
+          "type": "field",
+          "network": "tcp,udp",
+          "outboundTag": "proxy"
+        },
+        {
+          "type": "field",
+          "network": "tcp,udp",
+          "outboundTag": "proxy",
+          "remarks": "DEFAULT-PROXY"
+        }
+      ],
+      "balancers": []
+    }
+  },
+  {
+    "remarks": "🛜 🇵🇱 Польша 🤗",
+    "log": {
+      "loglevel": "warning"
+    },
+    "dns": {
+      "servers": [
+        "1.1.1.1",
+        "1.0.0.1"
+      ],
+      "queryStrategy": "UseIPv4",
+      "disableFallback": false
+    },
+    "inbounds": [
+      {
+        "tag": "socks",
+        "port": 10808,
+        "listen": "127.0.0.1",
+        "protocol": "socks",
+        "settings": {
+          "udp": true
+        },
+        "sniffing": {
+          "enabled": true,
+          "destOverride": [
+            "http",
+            "tls",
+            "quic"
+          ]
+        }
+      },
+      {
+        "tag": "http",
+        "port": 10809,
+        "listen": "127.0.0.1",
+        "protocol": "http",
+        "sniffing": {
+          "enabled": true,
+          "destOverride": [
+            "http",
+            "tls",
+            "quic"
+          ]
+        }
+      }
+    ],
+    "outbounds": [
+      {
+        "tag": "proxy",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "31.76.116.14",
+              "port": 8443,
+              "users": [
+                {
+                  "id": "041b836b-e2e4-4f7d-bb99-3e73ed40e3b8",
+                  "encryption": "none",
+                  "flow": "xtls-rprx-vision"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "node211.overgroup.cloud",
+            "publicKey": "J5ITJbg5FQFembAfkogKHHQB6DigsFXQxK7xu-QMWUs",
+            "shortId": "a20d3ed244c76426",
+            "fingerprint": "firefox"
+          }
+        }
+      },
+      {
+        "tag": "direct",
+        "protocol": "freedom",
+        "settings": {}
+      },
+      {
+        "tag": "block",
+        "protocol": "blackhole",
+        "settings": {}
+      }
+    ],
+    "routing": {
+      "domainStrategy": "IPIfNonMatch",
+      "rules": [
+        {
+          "type": "field",
+          "domain": [
+            "geosite:category-ru"
+          ],
+          "outboundTag": "direct",
+          "remarks": "RU-DIRECT: geosite:category-ru"
+        },
+        {
+          "type": "field",
+          "ip": [
+            "geoip:ru"
+          ],
+          "outboundTag": "direct",
+          "remarks": "RU-DIRECT: geoip:ru"
+        },
+        {
+          "type": "field",
+          "ip": [
+            "0.0.0.0/8",
+            "10.0.0.0/8",
+            "127.0.0.0/8",
+            "169.254.0.0/16",
+            "172.16.0.0/12",
+            "192.168.0.0/16",
+            "::1/128",
+            "fc00::/7",
+            "fe80::/10"
+          ],
+          "outboundTag": "direct",
+          "remarks": "PRIVATE-DIRECT"
+        },
+        {
+          "type": "field",
+          "ip": [
+            "0.0.0.0/8",
+            "10.0.0.0/8",
+            "127.0.0.0/8",
+            "169.254.0.0/16",
+            "172.16.0.0/12",
+            "192.168.0.0/16",
+            "::1/128",
+            "fc00::/7",
+            "fe80::/10"
+          ],
+          "outboundTag": "direct"
+        },
+        {
+          "type": "field",
+          "network": "tcp,udp",
+          "outboundTag": "proxy"
+        },
+        {
+          "type": "field",
+          "network": "tcp,udp",
+          "outboundTag": "proxy",
+          "remarks": "DEFAULT-PROXY"
+        }
+      ],
+      "balancers": []
+    }
+  },
+  {
+    "remarks": "🛜 🇮🇹 Италия 🤗",
+    "log": {
+      "loglevel": "warning"
+    },
+    "dns": {
+      "servers": [
+        "1.1.1.1",
+        "1.0.0.1"
+      ],
+      "queryStrategy": "UseIPv4",
+      "disableFallback": false
+    },
+    "inbounds": [
+      {
+        "tag": "socks",
+        "port": 10808,
+        "listen": "127.0.0.1",
+        "protocol": "socks",
+        "settings": {
+          "udp": true
+        },
+        "sniffing": {
+          "enabled": true,
+          "destOverride": [
+            "http",
+            "tls",
+            "quic"
+          ]
+        }
+      },
+      {
+        "tag": "http",
+        "port": 10809,
+        "listen": "127.0.0.1",
+        "protocol": "http",
+        "sniffing": {
+          "enabled": true,
+          "destOverride": [
+            "http",
+            "tls",
+            "quic"
+          ]
+        }
+      }
+    ],
+    "outbounds": [
+      {
+        "tag": "proxy",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "194.180.207.83",
+              "port": 7443,
+              "users": [
+                {
+                  "id": "041b836b-e2e4-4f7d-bb99-3e73ed40e3b8",
+                  "encryption": "none"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "security": "reality",
+          "xhttpSettings": {
+            "path": "/",
+            "mode": "auto"
+          },
+          "realitySettings": {
+            "serverName": "node170.overcdn.ru",
+            "publicKey": "J5ITJbg5FQFembAfkogKHHQB6DigsFXQxK7xu-QMWUs",
+            "shortId": "6b2f4e6ac9b1d2f0",
+            "fingerprint": "firefox"
+          }
+        }
+      },
+      {
+        "tag": "direct",
+        "protocol": "freedom",
+        "settings": {}
+      },
+      {
+        "tag": "block",
+        "protocol": "blackhole",
+        "settings": {}
+      }
+    ],
+    "routing": {
+      "domainStrategy": "IPIfNonMatch",
+      "rules": [
+        {
+          "type": "field",
+          "domain": [
+            "geosite:category-ru"
+          ],
+          "outboundTag": "direct",
+          "remarks": "RU-DIRECT: geosite:category-ru"
+        },
+        {
+          "type": "field",
+          "ip": [
+            "geoip:ru"
+          ],
+          "outboundTag": "direct",
+          "remarks": "RU-DIRECT: geoip:ru"
+        },
+        {
+          "type": "field",
+          "ip": [
+            "0.0.0.0/8",
+            "10.0.0.0/8",
+            "127.0.0.0/8",
+            "169.254.0.0/16",
+            "172.16.0.0/12",
+            "192.168.0.0/16",
+            "::1/128",
+            "fc00::/7",
+            "fe80::/10"
+          ],
+          "outboundTag": "direct",
+          "remarks": "PRIVATE-DIRECT"
+        },
+        {
+          "type": "field",
+          "ip": [
+            "0.0.0.0/8",
+            "10.0.0.0/8",
+            "127.0.0.0/8",
+            "169.254.0.0/16",
+            "172.16.0.0/12",
+            "192.168.0.0/16",
+            "::1/128",
+            "fc00::/7",
+            "fe80::/10"
+          ],
+          "outboundTag": "direct"
+        },
+        {
+          "type": "field",
+          "network": "tcp,udp",
+          "outboundTag": "proxy"
+        },
+        {
+          "type": "field",
+          "network": "tcp,udp",
+          "outboundTag": "proxy",
+          "remarks": "DEFAULT-PROXY"
+        }
+      ],
+      "balancers": []
+    }
+  },
+  {
+    "remarks": "🛜 🇪🇪 Эстония 🤗",
+    "log": {
+      "loglevel": "warning"
+    },
+    "dns": {
+      "servers": [
+        "1.1.1.1",
+        "1.0.0.1"
+      ],
+      "queryStrategy": "UseIPv4",
+      "disableFallback": false
+    },
+    "inbounds": [
+      {
+        "tag": "socks",
+        "port": 10808,
+        "listen": "127.0.0.1",
+        "protocol": "socks",
+        "settings": {
+          "udp": true
+        },
+        "sniffing": {
+          "enabled": true,
+          "destOverride": [
+            "http",
+            "tls",
+            "quic"
+          ]
+        }
+      },
+      {
+        "tag": "http",
+        "port": 10809,
+        "listen": "127.0.0.1",
+        "protocol": "http",
+        "sniffing": {
+          "enabled": true,
+          "destOverride": [
+            "http",
+            "tls",
+            "quic"
+          ]
+        }
+      }
+    ],
+    "outbounds": [
+      {
+        "tag": "proxy",
+        "protocol": "trojan",
+        "settings": {
+          "servers": [
+            {
+              "address": "82.47.22.214",
+              "port": 4249,
+              "password": "E7nVYbaVfPWVDqedaHtHRDb7vPvc6gm8"
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "est.speedload.ru",
+            "fingerprint": "randomized",
+            "alpn": [
+              "h2",
+              "http/1.1"
+            ]
+          }
+        }
+      },
+      {
+        "tag": "direct",
+        "protocol": "freedom",
+        "settings": {}
+      },
+      {
+        "tag": "block",
+        "protocol": "blackhole",
+        "settings": {}
+      }
+    ],
+    "routing": {
+      "domainStrategy": "IPIfNonMatch",
+      "rules": [
+        {
+          "type": "field",
+          "domain": [
+            "geosite:category-ru"
+          ],
+          "outboundTag": "direct",
+          "remarks": "RU-DIRECT: geosite:category-ru"
+        },
+        {
+          "type": "field",
+          "ip": [
+            "geoip:ru"
+          ],
+          "outboundTag": "direct",
+          "remarks": "RU-DIRECT: geoip:ru"
+        },
+        {
+          "type": "field",
+          "ip": [
+            "0.0.0.0/8",
+            "10.0.0.0/8",
+            "127.0.0.0/8",
+            "169.254.0.0/16",
+            "172.16.0.0/12",
+            "192.168.0.0/16",
+            "::1/128",
+            "fc00::/7",
+            "fe80::/10"
+          ],
+          "outboundTag": "direct",
+          "remarks": "PRIVATE-DIRECT"
+        },
+        {
+          "type": "field",
+          "ip": [
+            "0.0.0.0/8",
+            "10.0.0.0/8",
+            "127.0.0.0/8",
+            "169.254.0.0/16",
+            "172.16.0.0/12",
+            "192.168.0.0/16",
+            "::1/128",
+            "fc00::/7",
+            "fe80::/10"
+          ],
+          "outboundTag": "direct"
+        },
+        {
+          "type": "field",
+          "network": "tcp,udp",
+          "outboundTag": "proxy"
+        },
+        {
+          "type": "field",
+          "network": "tcp,udp",
+          "outboundTag": "proxy",
+          "remarks": "DEFAULT-PROXY"
+        }
+      ],
+      "balancers": []
+    }
+  },
+  {
+    "remarks": "🛜 🇪🇪 Эстония 🤗",
+    "log": {
+      "loglevel": "warning"
+    },
+    "dns": {
+      "servers": [
+        "1.1.1.1",
+        "1.0.0.1"
+      ],
+      "queryStrategy": "UseIPv4",
+      "disableFallback": false
+    },
+    "inbounds": [
+      {
+        "tag": "socks",
+        "port": 10808,
+        "listen": "127.0.0.1",
+        "protocol": "socks",
+        "settings": {
+          "udp": true
+        },
+        "sniffing": {
+          "enabled": true,
+          "destOverride": [
+            "http",
+            "tls",
+            "quic"
+          ]
+        }
+      },
+      {
+        "tag": "http",
+        "port": 10809,
+        "listen": "127.0.0.1",
+        "protocol": "http",
+        "sniffing": {
+          "enabled": true,
+          "destOverride": [
+            "http",
+            "tls",
+            "quic"
+          ]
+        }
+      }
+    ],
+    "outbounds": [
+      {
+        "tag": "proxy",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "arborfrostcedar.coppermitten.one",
+              "port": 443,
+              "users": [
+                {
+                  "id": "9089c182-5b7b-4682-b432-e64d8e3b5743",
+                  "encryption": "none",
+                  "flow": "xtls-rprx-vision"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "arborfrostcedar.coppermitten.one",
+            "publicKey": "a2d3SdlFYm_JVsZ5Jdm7tefcXgsp9u5rDKL4SpMwAGY",
+            "shortId": "394742e7072b2c91",
+            "fingerprint": "firefox"
+          }
+        }
+      },
+      {
+        "tag": "direct",
+        "protocol": "freedom",
+        "settings": {}
+      },
+      {
+        "tag": "block",
+        "protocol": "blackhole",
+        "settings": {}
+      }
+    ],
+    "routing": {
+      "domainStrategy": "IPIfNonMatch",
+      "rules": [
+        {
+          "type": "field",
+          "domain": [
+            "geosite:category-ru"
+          ],
+          "outboundTag": "direct",
+          "remarks": "RU-DIRECT: geosite:category-ru"
+        },
+        {
+          "type": "field",
+          "ip": [
+            "geoip:ru"
+          ],
+          "outboundTag": "direct",
+          "remarks": "RU-DIRECT: geoip:ru"
+        },
+        {
+          "type": "field",
+          "ip": [
+            "0.0.0.0/8",
+            "10.0.0.0/8",
+            "127.0.0.0/8",
+            "169.254.0.0/16",
+            "172.16.0.0/12",
+            "192.168.0.0/16",
+            "::1/128",
+            "fc00::/7",
+            "fe80::/10"
+          ],
+          "outboundTag": "direct",
+          "remarks": "PRIVATE-DIRECT"
+        },
+        {
+          "type": "field",
+          "ip": [
+            "0.0.0.0/8",
+            "10.0.0.0/8",
+            "127.0.0.0/8",
+            "169.254.0.0/16",
+            "172.16.0.0/12",
+            "192.168.0.0/16",
+            "::1/128",
+            "fc00::/7",
+            "fe80::/10"
+          ],
+          "outboundTag": "direct"
+        },
+        {
+          "type": "field",
+          "network": "tcp,udp",
+          "outboundTag": "proxy"
+        },
+        {
+          "type": "field",
+          "network": "tcp,udp",
+          "outboundTag": "proxy",
+          "remarks": "DEFAULT-PROXY"
+        }
+      ],
+      "balancers": []
+    }
+  },
+  {
+    "remarks": "🛜 🇳🇱 Нидерланды 🤗",
+    "log": {
+      "loglevel": "warning"
+    },
+    "dns": {
+      "servers": [
+        "1.1.1.1",
+        "1.0.0.1"
+      ],
+      "queryStrategy": "UseIPv4",
+      "disableFallback": false
+    },
+    "inbounds": [
+      {
+        "tag": "socks",
+        "port": 10808,
+        "listen": "127.0.0.1",
+        "protocol": "socks",
+        "settings": {
+          "udp": true
+        },
+        "sniffing": {
+          "enabled": true,
+          "destOverride": [
+            "http",
+            "tls",
+            "quic"
+          ]
+        }
+      },
+      {
+        "tag": "http",
+        "port": 10809,
+        "listen": "127.0.0.1",
+        "protocol": "http",
+        "sniffing": {
+          "enabled": true,
+          "destOverride": [
+            "http",
+            "tls",
+            "quic"
+          ]
+        }
+      }
+    ],
+    "outbounds": [
+      {
+        "tag": "proxy",
+        "protocol": "trojan",
+        "settings": {
+          "servers": [
+            {
+              "address": "91.84.99.191",
+              "port": 7443,
+              "password": "E7nVYbaVfPWVDqedaHtHRDb7vPvc6gm8"
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "nl.serverstats.ru",
+            "fingerprint": "firefox",
+            "alpn": [
+              "h2",
+              "http/1.1"
+            ]
+          }
+        }
+      },
+      {
+        "tag": "direct",
+        "protocol": "freedom",
+        "settings": {}
+      },
+      {
+        "tag": "block",
+        "protocol": "blackhole",
+        "settings": {}
+      }
+    ],
+    "routing": {
+      "domainStrategy": "IPIfNonMatch",
+      "rules": [
+        {
+          "type": "field",
+          "domain": [
+            "geosite:category-ru"
+          ],
+          "outboundTag": "direct",
+          "remarks": "RU-DIRECT: geosite:category-ru"
+        },
+        {
+          "type": "field",
+          "ip": [
+            "geoip:ru"
+          ],
+          "outboundTag": "direct",
+          "remarks": "RU-DIRECT: geoip:ru"
+        },
+        {
+          "type": "field",
+          "ip": [
+            "0.0.0.0/8",
+            "10.0.0.0/8",
+            "127.0.0.0/8",
+            "169.254.0.0/16",
+            "172.16.0.0/12",
+            "192.168.0.0/16",
+            "::1/128",
+            "fc00::/7",
+            "fe80::/10"
+          ],
+          "outboundTag": "direct",
+          "remarks": "PRIVATE-DIRECT"
+        },
+        {
+          "type": "field",
+          "ip": [
+            "0.0.0.0/8",
+            "10.0.0.0/8",
+            "127.0.0.0/8",
+            "169.254.0.0/16",
+            "172.16.0.0/12",
+            "192.168.0.0/16",
+            "::1/128",
+            "fc00::/7",
+            "fe80::/10"
+          ],
+          "outboundTag": "direct"
+        },
+        {
+          "type": "field",
+          "network": "tcp,udp",
+          "outboundTag": "proxy"
+        },
+        {
+          "type": "field",
+          "network": "tcp,udp",
+          "outboundTag": "proxy",
+          "remarks": "DEFAULT-PROXY"
+        }
+      ],
+      "balancers": []
+    }
+  },
+  {
+    "remarks": "🛜 🇨🇭 Швейцария 🤗",
+    "log": {
+      "loglevel": "warning"
+    },
+    "dns": {
+      "servers": [
+        "1.1.1.1",
+        "1.0.0.1"
+      ],
+      "queryStrategy": "UseIPv4",
+      "disableFallback": false
+    },
+    "inbounds": [
+      {
+        "tag": "socks",
+        "port": 10808,
+        "listen": "127.0.0.1",
+        "protocol": "socks",
+        "settings": {
+          "udp": true
+        },
+        "sniffing": {
+          "enabled": true,
+          "destOverride": [
+            "http",
+            "tls",
+            "quic"
+          ]
+        }
+      },
+      {
+        "tag": "http",
+        "port": 10809,
+        "listen": "127.0.0.1",
+        "protocol": "http",
+        "sniffing": {
+          "enabled": true,
+          "destOverride": [
+            "http",
+            "tls",
+            "quic"
+          ]
+        }
+      }
+    ],
+    "outbounds": [
+      {
+        "tag": "proxy",
+        "protocol": "trojan",
+        "settings": {
+          "servers": [
+            {
+              "address": "82.21.4.136",
+              "port": 7443,
+              "password": "E7nVYbaVfPWVDqedaHtHRDb7vPvc6gm8"
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "node18.overcdn.ru",
+            "fingerprint": "randomized",
+            "alpn": [
+              "h2",
+              "http/1.1"
+            ]
+          }
+        }
+      },
+      {
+        "tag": "direct",
+        "protocol": "freedom",
+        "settings": {}
+      },
+      {
+        "tag": "block",
+        "protocol": "blackhole",
+        "settings": {}
+      }
+    ],
+    "routing": {
+      "domainStrategy": "IPIfNonMatch",
+      "rules": [
+        {
+          "type": "field",
+          "domain": [
+            "geosite:category-ru"
+          ],
+          "outboundTag": "direct",
+          "remarks": "RU-DIRECT: geosite:category-ru"
+        },
+        {
+          "type": "field",
+          "ip": [
+            "geoip:ru"
+          ],
+          "outboundTag": "direct",
+          "remarks": "RU-DIRECT: geoip:ru"
+        },
+        {
+          "type": "field",
+          "ip": [
+            "0.0.0.0/8",
+            "10.0.0.0/8",
+            "127.0.0.0/8",
+            "169.254.0.0/16",
+            "172.16.0.0/12",
+            "192.168.0.0/16",
+            "::1/128",
+            "fc00::/7",
+            "fe80::/10"
+          ],
+          "outboundTag": "direct",
+          "remarks": "PRIVATE-DIRECT"
+        },
+        {
+          "type": "field",
+          "ip": [
+            "0.0.0.0/8",
+            "10.0.0.0/8",
+            "127.0.0.0/8",
+            "169.254.0.0/16",
+            "172.16.0.0/12",
+            "192.168.0.0/16",
+            "::1/128",
+            "fc00::/7",
+            "fe80::/10"
+          ],
+          "outboundTag": "direct"
+        },
+        {
+          "type": "field",
+          "network": "tcp,udp",
+          "outboundTag": "proxy"
+        },
+        {
+          "type": "field",
+          "network": "tcp,udp",
+          "outboundTag": "proxy",
+          "remarks": "DEFAULT-PROXY"
+        }
+      ],
+      "balancers": []
+    }
+  },
+  {
+    "remarks": "🛜 🇵🇱 Польша 🤗",
+    "log": {
+      "loglevel": "warning"
+    },
+    "dns": {
+      "servers": [
+        "1.1.1.1",
+        "1.0.0.1"
+      ],
+      "queryStrategy": "UseIPv4",
+      "disableFallback": false
+    },
+    "inbounds": [
+      {
+        "tag": "socks",
+        "port": 10808,
+        "listen": "127.0.0.1",
+        "protocol": "socks",
+        "settings": {
+          "udp": true
+        },
+        "sniffing": {
+          "enabled": true,
+          "destOverride": [
+            "http",
+            "tls",
+            "quic"
+          ]
+        }
+      },
+      {
+        "tag": "http",
+        "port": 10809,
+        "listen": "127.0.0.1",
+        "protocol": "http",
+        "sniffing": {
+          "enabled": true,
+          "destOverride": [
+            "http",
+            "tls",
+            "quic"
+          ]
+        }
+      }
+    ],
+    "outbounds": [
+      {
+        "tag": "proxy",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "31.76.116.14",
+              "port": 8090,
+              "users": [
+                {
+                  "id": "041b836b-e2e4-4f7d-bb99-3e73ed40e3b8",
+                  "encryption": "none"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "grpc",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "node211.overgroup.cloud",
+            "publicKey": "J5ITJbg5FQFembAfkogKHHQB6DigsFXQxK7xu-QMWUs",
+            "shortId": "6b2f4e6ac9b1d2f0",
+            "fingerprint": "firefox"
+          }
+        }
+      },
+      {
+        "tag": "direct",
+        "protocol": "freedom",
+        "settings": {}
+      },
+      {
+        "tag": "block",
+        "protocol": "blackhole",
+        "settings": {}
+      }
+    ],
+    "routing": {
+      "domainStrategy": "IPIfNonMatch",
+      "rules": [
+        {
+          "type": "field",
+          "domain": [
+            "geosite:category-ru"
+          ],
+          "outboundTag": "direct",
+          "remarks": "RU-DIRECT: geosite:category-ru"
+        },
+        {
+          "type": "field",
+          "ip": [
+            "geoip:ru"
+          ],
+          "outboundTag": "direct",
+          "remarks": "RU-DIRECT: geoip:ru"
+        },
+        {
+          "type": "field",
+          "ip": [
+            "0.0.0.0/8",
+            "10.0.0.0/8",
+            "127.0.0.0/8",
+            "169.254.0.0/16",
+            "172.16.0.0/12",
+            "192.168.0.0/16",
+            "::1/128",
+            "fc00::/7",
+            "fe80::/10"
+          ],
+          "outboundTag": "direct",
+          "remarks": "PRIVATE-DIRECT"
+        },
+        {
+          "type": "field",
+          "ip": [
+            "0.0.0.0/8",
+            "10.0.0.0/8",
+            "127.0.0.0/8",
+            "169.254.0.0/16",
+            "172.16.0.0/12",
+            "192.168.0.0/16",
+            "::1/128",
+            "fc00::/7",
+            "fe80::/10"
+          ],
+          "outboundTag": "direct"
+        },
+        {
+          "type": "field",
+          "network": "tcp,udp",
+          "outboundTag": "proxy"
+        },
+        {
+          "type": "field",
+          "network": "tcp,udp",
+          "outboundTag": "proxy",
+          "remarks": "DEFAULT-PROXY"
+        }
+      ],
+      "balancers": []
+    }
+  },
+  {
+    "remarks": "🛜 🇮🇹 Италия 🤗",
+    "log": {
+      "loglevel": "warning"
+    },
+    "dns": {
+      "servers": [
+        "1.1.1.1",
+        "1.0.0.1"
+      ],
+      "queryStrategy": "UseIPv4",
+      "disableFallback": false
+    },
+    "inbounds": [
+      {
+        "tag": "socks",
+        "port": 10808,
+        "listen": "127.0.0.1",
+        "protocol": "socks",
+        "settings": {
+          "udp": true
+        },
+        "sniffing": {
+          "enabled": true,
+          "destOverride": [
+            "http",
+            "tls",
+            "quic"
+          ]
+        }
+      },
+      {
+        "tag": "http",
+        "port": 10809,
+        "listen": "127.0.0.1",
+        "protocol": "http",
+        "sniffing": {
+          "enabled": true,
+          "destOverride": [
+            "http",
+            "tls",
+            "quic"
+          ]
+        }
+      }
+    ],
+    "outbounds": [
+      {
+        "tag": "proxy",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "194.180.207.83",
+              "port": 8443,
+              "users": [
+                {
+                  "id": "041b836b-e2e4-4f7d-bb99-3e73ed40e3b8",
+                  "encryption": "none",
+                  "flow": "xtls-rprx-vision"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "node170.overcdn.ru",
+            "publicKey": "J5ITJbg5FQFembAfkogKHHQB6DigsFXQxK7xu-QMWUs",
+            "shortId": "a20d3ed244c76426",
+            "fingerprint": "firefox"
+          }
+        }
+      },
+      {
+        "tag": "direct",
+        "protocol": "freedom",
+        "settings": {}
+      },
+      {
+        "tag": "block",
+        "protocol": "blackhole",
+        "settings": {}
+      }
+    ],
+    "routing": {
+      "domainStrategy": "IPIfNonMatch",
+      "rules": [
+        {
+          "type": "field",
+          "domain": [
+            "geosite:category-ru"
+          ],
+          "outboundTag": "direct",
+          "remarks": "RU-DIRECT: geosite:category-ru"
+        },
+        {
+          "type": "field",
+          "ip": [
+            "geoip:ru"
+          ],
+          "outboundTag": "direct",
+          "remarks": "RU-DIRECT: geoip:ru"
+        },
+        {
+          "type": "field",
+          "ip": [
+            "0.0.0.0/8",
+            "10.0.0.0/8",
+            "127.0.0.0/8",
+            "169.254.0.0/16",
+            "172.16.0.0/12",
+            "192.168.0.0/16",
+            "::1/128",
+            "fc00::/7",
+            "fe80::/10"
+          ],
+          "outboundTag": "direct",
+          "remarks": "PRIVATE-DIRECT"
+        },
+        {
+          "type": "field",
+          "ip": [
+            "0.0.0.0/8",
+            "10.0.0.0/8",
+            "127.0.0.0/8",
+            "169.254.0.0/16",
+            "172.16.0.0/12",
+            "192.168.0.0/16",
+            "::1/128",
+            "fc00::/7",
+            "fe80::/10"
+          ],
+          "outboundTag": "direct"
+        },
+        {
+          "type": "field",
+          "network": "tcp,udp",
+          "outboundTag": "proxy"
+        },
+        {
+          "type": "field",
+          "network": "tcp,udp",
+          "outboundTag": "proxy",
+          "remarks": "DEFAULT-PROXY"
+        }
+      ],
+      "balancers": []
+    }
+  },
+  {
+    "remarks": "🛜 🇳🇱 Нидерланды 🤗",
+    "log": {
+      "loglevel": "warning"
+    },
+    "dns": {
+      "servers": [
+        "1.1.1.1",
+        "1.0.0.1"
+      ],
+      "queryStrategy": "UseIPv4",
+      "disableFallback": false
+    },
+    "inbounds": [
+      {
+        "tag": "socks",
+        "port": 10808,
+        "listen": "127.0.0.1",
+        "protocol": "socks",
+        "settings": {
+          "udp": true
+        },
+        "sniffing": {
+          "enabled": true,
+          "destOverride": [
+            "http",
+            "tls",
+            "quic"
+          ]
+        }
+      },
+      {
+        "tag": "http",
+        "port": 10809,
+        "listen": "127.0.0.1",
+        "protocol": "http",
+        "sniffing": {
+          "enabled": true,
+          "destOverride": [
+            "http",
+            "tls",
+            "quic"
+          ]
+        }
+      }
+    ],
+    "outbounds": [
+      {
+        "tag": "proxy",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "89.110.84.116",
+              "port": 8443,
+              "users": [
+                {
+                  "id": "041b836b-e2e4-4f7d-bb99-3e73ed40e3b8",
+                  "encryption": "none",
+                  "flow": "xtls-rprx-vision"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "nl.rushtaxi.ru",
+            "publicKey": "J5ITJbg5FQFembAfkogKHHQB6DigsFXQxK7xu-QMWUs",
+            "shortId": "a20d3ed244c76426",
+            "fingerprint": "firefox"
+          }
+        }
+      },
+      {
+        "tag": "direct",
+        "protocol": "freedom",
+        "settings": {}
+      },
+      {
+        "tag": "block",
+        "protocol": "blackhole",
+        "settings": {}
+      }
+    ],
+    "routing": {
+      "domainStrategy": "IPIfNonMatch",
+      "rules": [
+        {
+          "type": "field",
+          "domain": [
+            "geosite:category-ru"
+          ],
+          "outboundTag": "direct",
+          "remarks": "RU-DIRECT: geosite:category-ru"
+        },
+        {
+          "type": "field",
+          "ip": [
+            "geoip:ru"
+          ],
+          "outboundTag": "direct",
+          "remarks": "RU-DIRECT: geoip:ru"
+        },
+        {
+          "type": "field",
+          "ip": [
+            "0.0.0.0/8",
+            "10.0.0.0/8",
+            "127.0.0.0/8",
+            "169.254.0.0/16",
+            "172.16.0.0/12",
+            "192.168.0.0/16",
+            "::1/128",
+            "fc00::/7",
+            "fe80::/10"
+          ],
+          "outboundTag": "direct",
+          "remarks": "PRIVATE-DIRECT"
+        },
+        {
+          "type": "field",
+          "ip": [
+            "0.0.0.0/8",
+            "10.0.0.0/8",
+            "127.0.0.0/8",
+            "169.254.0.0/16",
+            "172.16.0.0/12",
+            "192.168.0.0/16",
+            "::1/128",
+            "fc00::/7",
+            "fe80::/10"
+          ],
+          "outboundTag": "direct"
+        },
+        {
+          "type": "field",
+          "network": "tcp,udp",
+          "outboundTag": "proxy"
+        },
+        {
+          "type": "field",
+          "network": "tcp,udp",
+          "outboundTag": "proxy",
+          "remarks": "DEFAULT-PROXY"
+        }
+      ],
+      "balancers": []
+    }
+  },
+  {
+    "remarks": "🛜 🇵🇱 Польша 🤗",
+    "log": {
+      "loglevel": "warning"
+    },
+    "dns": {
+      "servers": [
+        "1.1.1.1",
+        "1.0.0.1"
+      ],
+      "queryStrategy": "UseIPv4",
+      "disableFallback": false
+    },
+    "inbounds": [
+      {
+        "tag": "socks",
+        "port": 10808,
+        "listen": "127.0.0.1",
+        "protocol": "socks",
+        "settings": {
+          "udp": true
+        },
+        "sniffing": {
+          "enabled": true,
+          "destOverride": [
+            "http",
+            "tls",
+            "quic"
+          ]
+        }
+      },
+      {
+        "tag": "http",
+        "port": 10809,
+        "listen": "127.0.0.1",
+        "protocol": "http",
+        "sniffing": {
+          "enabled": true,
+          "destOverride": [
+            "http",
+            "tls",
+            "quic"
+          ]
+        }
+      }
+    ],
+    "outbounds": [
+      {
+        "tag": "proxy",
+        "protocol": "trojan",
+        "settings": {
+          "servers": [
+            {
+              "address": "31.76.116.14",
+              "port": 7443,
+              "password": "E7nVYbaVfPWVDqedaHtHRDb7vPvc6gm8"
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "node211.overgroup.cloud",
+            "fingerprint": "firefox",
+            "alpn": [
+              "h2",
+              "http/1.1"
+            ]
+          }
+        }
+      },
+      {
+        "tag": "direct",
+        "protocol": "freedom",
+        "settings": {}
+      },
+      {
+        "tag": "block",
+        "protocol": "blackhole",
+        "settings": {}
+      }
+    ],
+    "routing": {
+      "domainStrategy": "IPIfNonMatch",
+      "rules": [
+        {
+          "type": "field",
+          "domain": [
+            "geosite:category-ru"
+          ],
+          "outboundTag": "direct",
+          "remarks": "RU-DIRECT: geosite:category-ru"
+        },
+        {
+          "type": "field",
+          "ip": [
+            "geoip:ru"
+          ],
+          "outboundTag": "direct",
+          "remarks": "RU-DIRECT: geoip:ru"
+        },
+        {
+          "type": "field",
+          "ip": [
+            "0.0.0.0/8",
+            "10.0.0.0/8",
+            "127.0.0.0/8",
+            "169.254.0.0/16",
+            "172.16.0.0/12",
+            "192.168.0.0/16",
+            "::1/128",
+            "fc00::/7",
+            "fe80::/10"
+          ],
+          "outboundTag": "direct",
+          "remarks": "PRIVATE-DIRECT"
+        },
+        {
+          "type": "field",
+          "ip": [
+            "0.0.0.0/8",
+            "10.0.0.0/8",
+            "127.0.0.0/8",
+            "169.254.0.0/16",
+            "172.16.0.0/12",
+            "192.168.0.0/16",
+            "::1/128",
+            "fc00::/7",
+            "fe80::/10"
+          ],
+          "outboundTag": "direct"
+        },
+        {
+          "type": "field",
+          "network": "tcp,udp",
+          "outboundTag": "proxy"
+        },
+        {
+          "type": "field",
+          "network": "tcp,udp",
+          "outboundTag": "proxy",
+          "remarks": "DEFAULT-PROXY"
+        }
+      ],
+      "balancers": []
+    }
+  },
+  {
+    "remarks": "🛜 🇩🇰 Дания 🤗",
+    "log": {
+      "loglevel": "warning"
+    },
+    "dns": {
+      "servers": [
+        "1.1.1.1",
+        "1.0.0.1"
+      ],
+      "queryStrategy": "UseIPv4",
+      "disableFallback": false
+    },
+    "inbounds": [
+      {
+        "tag": "socks",
+        "port": 10808,
+        "listen": "127.0.0.1",
+        "protocol": "socks",
+        "settings": {
+          "udp": true
+        },
+        "sniffing": {
+          "enabled": true,
+          "destOverride": [
+            "http",
+            "tls",
+            "quic"
+          ]
+        }
+      },
+      {
+        "tag": "http",
+        "port": 10809,
+        "listen": "127.0.0.1",
+        "protocol": "http",
+        "sniffing": {
+          "enabled": true,
+          "destOverride": [
+            "http",
+            "tls",
+            "quic"
+          ]
+        }
+      }
+    ],
+    "outbounds": [
+      {
+        "tag": "proxy",
+        "protocol": "trojan",
+        "settings": {
+          "servers": [
+            {
+              "address": "130.49.188.54",
+              "port": 7443,
+              "password": "E7nVYbaVfPWVDqedaHtHRDb7vPvc6gm8"
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "node22.overcdn.ru",
+            "fingerprint": "randomized",
+            "alpn": [
+              "h2",
+              "http/1.1"
+            ]
+          }
+        }
+      },
+      {
+        "tag": "direct",
+        "protocol": "freedom",
+        "settings": {}
+      },
+      {
+        "tag": "block",
+        "protocol": "blackhole",
+        "settings": {}
+      }
+    ],
+    "routing": {
+      "domainStrategy": "IPIfNonMatch",
+      "rules": [
+        {
+          "type": "field",
+          "domain": [
+            "geosite:category-ru"
+          ],
+          "outboundTag": "direct",
+          "remarks": "RU-DIRECT: geosite:category-ru"
+        },
+        {
+          "type": "field",
+          "ip": [
+            "geoip:ru"
+          ],
+          "outboundTag": "direct",
+          "remarks": "RU-DIRECT: geoip:ru"
+        },
+        {
+          "type": "field",
+          "ip": [
+            "0.0.0.0/8",
+            "10.0.0.0/8",
+            "127.0.0.0/8",
+            "169.254.0.0/16",
+            "172.16.0.0/12",
+            "192.168.0.0/16",
+            "::1/128",
+            "fc00::/7",
+            "fe80::/10"
+          ],
+          "outboundTag": "direct",
+          "remarks": "PRIVATE-DIRECT"
+        },
+        {
+          "type": "field",
+          "ip": [
+            "0.0.0.0/8",
+            "10.0.0.0/8",
+            "127.0.0.0/8",
+            "169.254.0.0/16",
+            "172.16.0.0/12",
+            "192.168.0.0/16",
+            "::1/128",
+            "fc00::/7",
+            "fe80::/10"
+          ],
+          "outboundTag": "direct"
+        },
+        {
+          "type": "field",
+          "network": "tcp,udp",
+          "outboundTag": "proxy"
+        },
+        {
+          "type": "field",
+          "network": "tcp,udp",
+          "outboundTag": "proxy",
+          "remarks": "DEFAULT-PROXY"
+        }
+      ],
+      "balancers": []
+    }
+  },
+  {
+    "remarks": "🛜 🇫🇮 Финляндия 🤗",
+    "log": {
+      "loglevel": "warning"
+    },
+    "dns": {
+      "servers": [
+        "1.1.1.1",
+        "1.0.0.1"
+      ],
+      "queryStrategy": "UseIPv4",
+      "disableFallback": false
+    },
+    "inbounds": [
+      {
+        "tag": "socks",
+        "port": 10808,
+        "listen": "127.0.0.1",
+        "protocol": "socks",
+        "settings": {
+          "udp": true
+        },
+        "sniffing": {
+          "enabled": true,
+          "destOverride": [
+            "http",
+            "tls",
+            "quic"
+          ]
+        }
+      },
+      {
+        "tag": "http",
+        "port": 10809,
+        "listen": "127.0.0.1",
+        "protocol": "http",
+        "sniffing": {
+          "enabled": true,
+          "destOverride": [
+            "http",
+            "tls",
+            "quic"
+          ]
+        }
+      }
+    ],
+    "outbounds": [
+      {
+        "tag": "proxy",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "178.72.141.108",
+              "port": 9443,
+              "users": [
+                {
+                  "id": "041b836b-e2e4-4f7d-bb99-3e73ed40e3b8",
+                  "encryption": "none",
+                  "flow": "xtls-rprx-vision"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "rumost.overload.ovh",
+            "publicKey": "J5ITJbg5FQFembAfkogKHHQB6DigsFXQxK7xu-QMWUs",
+            "shortId": "a20d3ed244c76426",
+            "fingerprint": "firefox"
+          }
+        }
+      },
+      {
+        "tag": "direct",
+        "protocol": "freedom",
+        "settings": {}
+      },
+      {
+        "tag": "block",
+        "protocol": "blackhole",
+        "settings": {}
+      }
+    ],
+    "routing": {
+      "domainStrategy": "IPIfNonMatch",
+      "rules": [
+        {
+          "type": "field",
+          "domain": [
+            "geosite:category-ru"
+          ],
+          "outboundTag": "direct",
+          "remarks": "RU-DIRECT: geosite:category-ru"
+        },
+        {
+          "type": "field",
+          "ip": [
+            "geoip:ru"
+          ],
+          "outboundTag": "direct",
+          "remarks": "RU-DIRECT: geoip:ru"
+        },
+        {
+          "type": "field",
+          "ip": [
+            "0.0.0.0/8",
+            "10.0.0.0/8",
+            "127.0.0.0/8",
+            "169.254.0.0/16",
+            "172.16.0.0/12",
+            "192.168.0.0/16",
+            "::1/128",
+            "fc00::/7",
+            "fe80::/10"
+          ],
+          "outboundTag": "direct",
+          "remarks": "PRIVATE-DIRECT"
+        },
+        {
+          "type": "field",
+          "ip": [
+            "0.0.0.0/8",
+            "10.0.0.0/8",
+            "127.0.0.0/8",
+            "169.254.0.0/16",
+            "172.16.0.0/12",
+            "192.168.0.0/16",
+            "::1/128",
+            "fc00::/7",
+            "fe80::/10"
+          ],
+          "outboundTag": "direct"
+        },
+        {
+          "type": "field",
+          "network": "tcp,udp",
+          "outboundTag": "proxy"
+        },
+        {
+          "type": "field",
+          "network": "tcp,udp",
+          "outboundTag": "proxy",
+          "remarks": "DEFAULT-PROXY"
+        }
+      ],
+      "balancers": []
+    }
+  },
+  {
+    "remarks": "🛜 🇩🇪 Германия 🤗",
+    "log": {
+      "loglevel": "warning"
+    },
+    "dns": {
+      "servers": [
+        "1.1.1.1",
+        "1.0.0.1"
+      ],
+      "queryStrategy": "UseIPv4",
+      "disableFallback": false
+    },
+    "inbounds": [
+      {
+        "tag": "socks",
+        "port": 10808,
+        "listen": "127.0.0.1",
+        "protocol": "socks",
+        "settings": {
+          "udp": true
+        },
+        "sniffing": {
+          "enabled": true,
+          "destOverride": [
+            "http",
+            "tls",
+            "quic"
+          ]
+        }
+      },
+      {
+        "tag": "http",
+        "port": 10809,
+        "listen": "127.0.0.1",
+        "protocol": "http",
+        "sniffing": {
+          "enabled": true,
+          "destOverride": [
+            "http",
+            "tls",
+            "quic"
+          ]
+        }
+      }
+    ],
+    "outbounds": [
+      {
+        "tag": "proxy",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "138.124.28.15",
+              "port": 8443,
+              "users": [
+                {
+                  "id": "041b836b-e2e4-4f7d-bb99-3e73ed40e3b8",
+                  "encryption": "none",
+                  "flow": "xtls-rprx-vision"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "deone.serverstats.ru",
+            "publicKey": "J5ITJbg5FQFembAfkogKHHQB6DigsFXQxK7xu-QMWUs",
+            "shortId": "a20d3ed244c76426",
+            "fingerprint": "firefox"
+          }
+        }
+      },
+      {
+        "tag": "direct",
+        "protocol": "freedom",
+        "settings": {}
+      },
+      {
+        "tag": "block",
+        "protocol": "blackhole",
+        "settings": {}
+      }
+    ],
+    "routing": {
+      "domainStrategy": "IPIfNonMatch",
+      "rules": [
+        {
+          "type": "field",
+          "domain": [
+            "geosite:category-ru"
+          ],
+          "outboundTag": "direct",
+          "remarks": "RU-DIRECT: geosite:category-ru"
+        },
+        {
+          "type": "field",
+          "ip": [
+            "geoip:ru"
+          ],
+          "outboundTag": "direct",
+          "remarks": "RU-DIRECT: geoip:ru"
+        },
+        {
+          "type": "field",
+          "ip": [
+            "0.0.0.0/8",
+            "10.0.0.0/8",
+            "127.0.0.0/8",
+            "169.254.0.0/16",
+            "172.16.0.0/12",
+            "192.168.0.0/16",
+            "::1/128",
+            "fc00::/7",
+            "fe80::/10"
+          ],
+          "outboundTag": "direct",
+          "remarks": "PRIVATE-DIRECT"
+        },
+        {
+          "type": "field",
+          "ip": [
+            "0.0.0.0/8",
+            "10.0.0.0/8",
+            "127.0.0.0/8",
+            "169.254.0.0/16",
+            "172.16.0.0/12",
+            "192.168.0.0/16",
+            "::1/128",
+            "fc00::/7",
+            "fe80::/10"
+          ],
+          "outboundTag": "direct"
+        },
+        {
+          "type": "field",
+          "network": "tcp,udp",
+          "outboundTag": "proxy"
+        },
+        {
+          "type": "field",
+          "network": "tcp,udp",
+          "outboundTag": "proxy",
+          "remarks": "DEFAULT-PROXY"
+        }
+      ],
+      "balancers": []
+    }
+  },
+  {
+    "remarks": "🛜 🇨🇳 Китай 🤗",
+    "log": {
+      "loglevel": "warning"
+    },
+    "dns": {
+      "servers": [
+        "1.1.1.1",
+        "1.0.0.1"
+      ],
+      "queryStrategy": "UseIPv4",
+      "disableFallback": false
+    },
+    "inbounds": [
+      {
+        "tag": "socks",
+        "port": 10808,
+        "listen": "127.0.0.1",
+        "protocol": "socks",
+        "settings": {
+          "udp": true
+        },
+        "sniffing": {
+          "enabled": true,
+          "destOverride": [
+            "http",
+            "tls",
+            "quic"
+          ]
+        }
+      },
+      {
+        "tag": "http",
+        "port": 10809,
+        "listen": "127.0.0.1",
+        "protocol": "http",
+        "sniffing": {
+          "enabled": true,
+          "destOverride": [
+            "http",
+            "tls",
+            "quic"
+          ]
+        }
+      }
+    ],
+    "outbounds": [
+      {
+        "tag": "proxy",
+        "protocol": "trojan",
+        "settings": {
+          "servers": [
+            {
+              "address": "144.31.50.117",
+              "port": 7443,
+              "password": "E7nVYbaVfPWVDqedaHtHRDb7vPvc6gm8"
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "ch.federal-usa.com",
+            "fingerprint": "randomized",
+            "alpn": [
+              "h2",
+              "http/1.1"
+            ]
+          }
+        }
+      },
+      {
+        "tag": "direct",
+        "protocol": "freedom",
+        "settings": {}
+      },
+      {
+        "tag": "block",
+        "protocol": "blackhole",
+        "settings": {}
+      }
+    ],
+    "routing": {
+      "domainStrategy": "IPIfNonMatch",
+      "rules": [
+        {
+          "type": "field",
+          "domain": [
+            "geosite:category-ru"
+          ],
+          "outboundTag": "direct",
+          "remarks": "RU-DIRECT: geosite:category-ru"
+        },
+        {
+          "type": "field",
+          "ip": [
+            "geoip:ru"
+          ],
+          "outboundTag": "direct",
+          "remarks": "RU-DIRECT: geoip:ru"
+        },
+        {
+          "type": "field",
+          "ip": [
+            "0.0.0.0/8",
+            "10.0.0.0/8",
+            "127.0.0.0/8",
+            "169.254.0.0/16",
+            "172.16.0.0/12",
+            "192.168.0.0/16",
+            "::1/128",
+            "fc00::/7",
+            "fe80::/10"
+          ],
+          "outboundTag": "direct",
+          "remarks": "PRIVATE-DIRECT"
+        },
+        {
+          "type": "field",
+          "ip": [
+            "0.0.0.0/8",
+            "10.0.0.0/8",
+            "127.0.0.0/8",
+            "169.254.0.0/16",
+            "172.16.0.0/12",
+            "192.168.0.0/16",
+            "::1/128",
+            "fc00::/7",
+            "fe80::/10"
+          ],
+          "outboundTag": "direct"
+        },
+        {
+          "type": "field",
+          "network": "tcp,udp",
+          "outboundTag": "proxy"
+        },
+        {
+          "type": "field",
+          "network": "tcp,udp",
+          "outboundTag": "proxy",
+          "remarks": "DEFAULT-PROXY"
+        }
+      ],
+      "balancers": []
+    }
+  },
+  {
+    "remarks": "🛜 🇩🇪 Германия 🤗",
+    "log": {
+      "loglevel": "warning"
+    },
+    "dns": {
+      "servers": [
+        "1.1.1.1",
+        "1.0.0.1"
+      ],
+      "queryStrategy": "UseIPv4",
+      "disableFallback": false
+    },
+    "inbounds": [
+      {
+        "tag": "socks",
+        "port": 10808,
+        "listen": "127.0.0.1",
+        "protocol": "socks",
+        "settings": {
+          "udp": true
+        },
+        "sniffing": {
+          "enabled": true,
+          "destOverride": [
+            "http",
+            "tls",
+            "quic"
+          ]
+        }
+      },
+      {
+        "tag": "http",
+        "port": 10809,
+        "listen": "127.0.0.1",
+        "protocol": "http",
+        "sniffing": {
+          "enabled": true,
+          "destOverride": [
+            "http",
+            "tls",
+            "quic"
+          ]
+        }
+      }
+    ],
+    "outbounds": [
+      {
+        "tag": "proxy",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "178.72.141.108",
+              "port": 7443,
+              "users": [
+                {
+                  "id": "041b836b-e2e4-4f7d-bb99-3e73ed40e3b8",
+                  "encryption": "none",
+                  "flow": "xtls-rprx-vision"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "rumost.overload.ovh",
+            "publicKey": "J5ITJbg5FQFembAfkogKHHQB6DigsFXQxK7xu-QMWUs",
+            "shortId": "a20d3ed244c76426",
+            "fingerprint": "firefox"
+          }
+        }
+      },
+      {
+        "tag": "direct",
+        "protocol": "freedom",
+        "settings": {}
+      },
+      {
+        "tag": "block",
+        "protocol": "blackhole",
+        "settings": {}
+      }
+    ],
+    "routing": {
+      "domainStrategy": "IPIfNonMatch",
+      "rules": [
+        {
+          "type": "field",
+          "domain": [
+            "geosite:category-ru"
+          ],
+          "outboundTag": "direct",
+          "remarks": "RU-DIRECT: geosite:category-ru"
+        },
+        {
+          "type": "field",
+          "ip": [
+            "geoip:ru"
+          ],
+          "outboundTag": "direct",
+          "remarks": "RU-DIRECT: geoip:ru"
+        },
+        {
+          "type": "field",
+          "ip": [
+            "0.0.0.0/8",
+            "10.0.0.0/8",
+            "127.0.0.0/8",
+            "169.254.0.0/16",
+            "172.16.0.0/12",
+            "192.168.0.0/16",
+            "::1/128",
+            "fc00::/7",
+            "fe80::/10"
+          ],
+          "outboundTag": "direct",
+          "remarks": "PRIVATE-DIRECT"
+        },
+        {
+          "type": "field",
+          "ip": [
+            "0.0.0.0/8",
+            "10.0.0.0/8",
+            "127.0.0.0/8",
+            "169.254.0.0/16",
+            "172.16.0.0/12",
+            "192.168.0.0/16",
+            "::1/128",
+            "fc00::/7",
+            "fe80::/10"
+          ],
+          "outboundTag": "direct"
+        },
+        {
+          "type": "field",
+          "network": "tcp,udp",
+          "outboundTag": "proxy"
+        },
+        {
+          "type": "field",
+          "network": "tcp,udp",
+          "outboundTag": "proxy",
+          "remarks": "DEFAULT-PROXY"
+        }
+      ],
+      "balancers": []
+    }
+  },
+  {
+    "remarks": "🛜 🇩🇪 Германия 🤗",
+    "log": {
+      "loglevel": "warning"
+    },
+    "dns": {
+      "servers": [
+        "1.1.1.1",
+        "1.0.0.1"
+      ],
+      "queryStrategy": "UseIPv4",
+      "disableFallback": false
+    },
+    "inbounds": [
+      {
+        "tag": "socks",
+        "port": 10808,
+        "listen": "127.0.0.1",
+        "protocol": "socks",
+        "settings": {
+          "udp": true
+        },
+        "sniffing": {
+          "enabled": true,
+          "destOverride": [
+            "http",
+            "tls",
+            "quic"
+          ]
+        }
+      },
+      {
+        "tag": "http",
+        "port": 10809,
+        "listen": "127.0.0.1",
+        "protocol": "http",
+        "sniffing": {
+          "enabled": true,
+          "destOverride": [
+            "http",
+            "tls",
+            "quic"
+          ]
+        }
+      }
+    ],
+    "outbounds": [
+      {
+        "tag": "proxy",
+        "protocol": "trojan",
+        "settings": {
+          "servers": [
+            {
+              "address": "31.77.31.5",
+              "port": 8443,
+              "password": "E7nVYbaVfPWVDqedaHtHRDb7vPvc6gm8"
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "node44.overcdn.ru",
+            "fingerprint": "firefox",
+            "alpn": [
+              "h2",
+              "http/1.1"
+            ]
+          }
+        }
+      },
+      {
+        "tag": "direct",
+        "protocol": "freedom",
+        "settings": {}
+      },
+      {
+        "tag": "block",
+        "protocol": "blackhole",
+        "settings": {}
+      }
+    ],
+    "routing": {
+      "domainStrategy": "IPIfNonMatch",
+      "rules": [
+        {
+          "type": "field",
+          "domain": [
+            "geosite:category-ru"
+          ],
+          "outboundTag": "direct",
+          "remarks": "RU-DIRECT: geosite:category-ru"
+        },
+        {
+          "type": "field",
+          "ip": [
+            "geoip:ru"
+          ],
+          "outboundTag": "direct",
+          "remarks": "RU-DIRECT: geoip:ru"
+        },
+        {
+          "type": "field",
+          "ip": [
+            "0.0.0.0/8",
+            "10.0.0.0/8",
+            "127.0.0.0/8",
+            "169.254.0.0/16",
+            "172.16.0.0/12",
+            "192.168.0.0/16",
+            "::1/128",
+            "fc00::/7",
+            "fe80::/10"
+          ],
+          "outboundTag": "direct",
+          "remarks": "PRIVATE-DIRECT"
+        },
+        {
+          "type": "field",
+          "ip": [
+            "0.0.0.0/8",
+            "10.0.0.0/8",
+            "127.0.0.0/8",
+            "169.254.0.0/16",
+            "172.16.0.0/12",
+            "192.168.0.0/16",
+            "::1/128",
+            "fc00::/7",
+            "fe80::/10"
+          ],
+          "outboundTag": "direct"
+        },
+        {
+          "type": "field",
+          "network": "tcp,udp",
+          "outboundTag": "proxy"
+        },
+        {
+          "type": "field",
+          "network": "tcp,udp",
+          "outboundTag": "proxy",
+          "remarks": "DEFAULT-PROXY"
+        }
+      ],
+      "balancers": []
+    }
+  },
+  {
+    "remarks": "🛜 🇵🇱 Польша 🤗",
+    "log": {
+      "loglevel": "warning"
+    },
+    "dns": {
+      "servers": [
+        "1.1.1.1",
+        "1.0.0.1"
+      ],
+      "queryStrategy": "UseIPv4",
+      "disableFallback": false
+    },
+    "inbounds": [
+      {
+        "tag": "socks",
+        "port": 10808,
+        "listen": "127.0.0.1",
+        "protocol": "socks",
+        "settings": {
+          "udp": true
+        },
+        "sniffing": {
+          "enabled": true,
+          "destOverride": [
+            "http",
+            "tls",
+            "quic"
+          ]
+        }
+      },
+      {
+        "tag": "http",
+        "port": 10809,
+        "listen": "127.0.0.1",
+        "protocol": "http",
+        "sniffing": {
+          "enabled": true,
+          "destOverride": [
+            "http",
+            "tls",
+            "quic"
+          ]
+        }
+      }
+    ],
+    "outbounds": [
+      {
+        "tag": "proxy",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "91.206.14.229",
+              "port": 9443,
+              "users": [
+                {
+                  "id": "041b836b-e2e4-4f7d-bb99-3e73ed40e3b8",
+                  "encryption": "none"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "security": "reality",
+          "xhttpSettings": {
+            "path": "/",
+            "mode": "auto"
+          },
+          "realitySettings": {
+            "serverName": "rumost.overload.ovh",
+            "publicKey": "J5ITJbg5FQFembAfkogKHHQB6DigsFXQxK7xu-QMWUs",
+            "shortId": "6b2f4e6ac9b1d2f0",
+            "fingerprint": "qq"
+          }
+        }
+      },
+      {
+        "tag": "direct",
+        "protocol": "freedom",
+        "settings": {}
+      },
+      {
+        "tag": "block",
+        "protocol": "blackhole",
+        "settings": {}
+      }
+    ],
+    "routing": {
+      "domainStrategy": "IPIfNonMatch",
+      "rules": [
+        {
+          "type": "field",
+          "domain": [
+            "geosite:category-ru"
+          ],
+          "outboundTag": "direct",
+          "remarks": "RU-DIRECT: geosite:category-ru"
+        },
+        {
+          "type": "field",
+          "ip": [
+            "geoip:ru"
+          ],
+          "outboundTag": "direct",
+          "remarks": "RU-DIRECT: geoip:ru"
+        },
+        {
+          "type": "field",
+          "ip": [
+            "0.0.0.0/8",
+            "10.0.0.0/8",
+            "127.0.0.0/8",
+            "169.254.0.0/16",
+            "172.16.0.0/12",
+            "192.168.0.0/16",
+            "::1/128",
+            "fc00::/7",
+            "fe80::/10"
+          ],
+          "outboundTag": "direct",
+          "remarks": "PRIVATE-DIRECT"
+        },
+        {
+          "type": "field",
+          "ip": [
+            "0.0.0.0/8",
+            "10.0.0.0/8",
+            "127.0.0.0/8",
+            "169.254.0.0/16",
+            "172.16.0.0/12",
+            "192.168.0.0/16",
+            "::1/128",
+            "fc00::/7",
+            "fe80::/10"
+          ],
+          "outboundTag": "direct"
+        },
+        {
+          "type": "field",
+          "network": "tcp,udp",
+          "outboundTag": "proxy"
+        },
+        {
+          "type": "field",
+          "network": "tcp,udp",
+          "outboundTag": "proxy",
+          "remarks": "DEFAULT-PROXY"
+        }
+      ],
+      "balancers": []
+    }
+  },
+  {
+    "remarks": "🛜 🇵🇱 Польша 🤗",
+    "log": {
+      "loglevel": "warning"
+    },
+    "dns": {
+      "servers": [
+        "1.1.1.1",
+        "1.0.0.1"
+      ],
+      "queryStrategy": "UseIPv4",
+      "disableFallback": false
+    },
+    "inbounds": [
+      {
+        "tag": "socks",
+        "port": 10808,
+        "listen": "127.0.0.1",
+        "protocol": "socks",
+        "settings": {
+          "udp": true
+        },
+        "sniffing": {
+          "enabled": true,
+          "destOverride": [
+            "http",
+            "tls",
+            "quic"
+          ]
+        }
+      },
+      {
+        "tag": "http",
+        "port": 10809,
+        "listen": "127.0.0.1",
+        "protocol": "http",
+        "sniffing": {
+          "enabled": true,
+          "destOverride": [
+            "http",
+            "tls",
+            "quic"
+          ]
+        }
+      }
+    ],
+    "outbounds": [
+      {
+        "tag": "proxy",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "91.206.14.229",
+              "port": 6443,
+              "users": [
+                {
+                  "id": "041b836b-e2e4-4f7d-bb99-3e73ed40e3b8",
+                  "encryption": "none",
+                  "flow": "xtls-rprx-vision"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "rumost.overload.ovh",
+            "publicKey": "J5ITJbg5FQFembAfkogKHHQB6DigsFXQxK7xu-QMWUs",
+            "shortId": "a20d3ed244c76426",
+            "fingerprint": "qq"
+          }
+        }
+      },
+      {
+        "tag": "direct",
+        "protocol": "freedom",
+        "settings": {}
+      },
+      {
+        "tag": "block",
+        "protocol": "blackhole",
+        "settings": {}
+      }
+    ],
+    "routing": {
+      "domainStrategy": "IPIfNonMatch",
+      "rules": [
+        {
+          "type": "field",
+          "domain": [
+            "geosite:category-ru"
+          ],
+          "outboundTag": "direct",
+          "remarks": "RU-DIRECT: geosite:category-ru"
+        },
+        {
+          "type": "field",
+          "ip": [
+            "geoip:ru"
+          ],
+          "outboundTag": "direct",
+          "remarks": "RU-DIRECT: geoip:ru"
+        },
+        {
+          "type": "field",
+          "ip": [
+            "0.0.0.0/8",
+            "10.0.0.0/8",
+            "127.0.0.0/8",
+            "169.254.0.0/16",
+            "172.16.0.0/12",
+            "192.168.0.0/16",
+            "::1/128",
+            "fc00::/7",
+            "fe80::/10"
+          ],
+          "outboundTag": "direct",
+          "remarks": "PRIVATE-DIRECT"
+        },
+        {
+          "type": "field",
+          "ip": [
+            "0.0.0.0/8",
+            "10.0.0.0/8",
+            "127.0.0.0/8",
+            "169.254.0.0/16",
+            "172.16.0.0/12",
+            "192.168.0.0/16",
+            "::1/128",
+            "fc00::/7",
+            "fe80::/10"
+          ],
+          "outboundTag": "direct"
+        },
+        {
+          "type": "field",
+          "network": "tcp,udp",
+          "outboundTag": "proxy"
+        },
+        {
+          "type": "field",
+          "network": "tcp,udp",
+          "outboundTag": "proxy",
+          "remarks": "DEFAULT-PROXY"
+        }
+      ],
+      "balancers": []
+    }
+  },
+  {
+    "remarks": "🛜 🇩🇪 Германия 🤗",
+    "log": {
+      "loglevel": "warning"
+    },
+    "dns": {
+      "servers": [
+        "1.1.1.1",
+        "1.0.0.1"
+      ],
+      "queryStrategy": "UseIPv4",
+      "disableFallback": false
+    },
+    "inbounds": [
+      {
+        "tag": "socks",
+        "port": 10808,
+        "listen": "127.0.0.1",
+        "protocol": "socks",
+        "settings": {
+          "udp": true
+        },
+        "sniffing": {
+          "enabled": true,
+          "destOverride": [
+            "http",
+            "tls",
+            "quic"
+          ]
+        }
+      },
+      {
+        "tag": "http",
+        "port": 10809,
+        "listen": "127.0.0.1",
+        "protocol": "http",
+        "sniffing": {
+          "enabled": true,
+          "destOverride": [
+            "http",
+            "tls",
+            "quic"
+          ]
+        }
+      }
+    ],
+    "outbounds": [
+      {
+        "tag": "proxy",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "droblevov-xirono.thicketpond.dev",
+              "port": 443,
+              "users": [
+                {
+                  "id": "9089c182-5b7b-4682-b432-e64d8e3b5743",
+                  "encryption": "none",
+                  "flow": "xtls-rprx-vision"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "droblevov-xirono.thicketpond.dev",
+            "publicKey": "f_bFaksQOoVyhloR3wrRvk5tTg10DasjJyyFSkXwMj0",
+            "shortId": "ed48dbbed3cd8468",
+            "fingerprint": "firefox"
+          }
+        }
+      },
+      {
+        "tag": "direct",
+        "protocol": "freedom",
+        "settings": {}
+      },
+      {
+        "tag": "block",
+        "protocol": "blackhole",
+        "settings": {}
+      }
+    ],
+    "routing": {
+      "domainStrategy": "IPIfNonMatch",
+      "rules": [
+        {
+          "type": "field",
+          "domain": [
+            "geosite:category-ru"
+          ],
+          "outboundTag": "direct",
+          "remarks": "RU-DIRECT: geosite:category-ru"
+        },
+        {
+          "type": "field",
+          "ip": [
+            "geoip:ru"
+          ],
+          "outboundTag": "direct",
+          "remarks": "RU-DIRECT: geoip:ru"
+        },
+        {
+          "type": "field",
+          "ip": [
+            "0.0.0.0/8",
+            "10.0.0.0/8",
+            "127.0.0.0/8",
+            "169.254.0.0/16",
+            "172.16.0.0/12",
+            "192.168.0.0/16",
+            "::1/128",
+            "fc00::/7",
+            "fe80::/10"
+          ],
+          "outboundTag": "direct",
+          "remarks": "PRIVATE-DIRECT"
+        },
+        {
+          "type": "field",
+          "ip": [
+            "0.0.0.0/8",
+            "10.0.0.0/8",
+            "127.0.0.0/8",
+            "169.254.0.0/16",
+            "172.16.0.0/12",
+            "192.168.0.0/16",
+            "::1/128",
+            "fc00::/7",
+            "fe80::/10"
+          ],
+          "outboundTag": "direct"
+        },
+        {
+          "type": "field",
+          "network": "tcp,udp",
+          "outboundTag": "proxy"
+        },
+        {
+          "type": "field",
+          "network": "tcp,udp",
+          "outboundTag": "proxy",
+          "remarks": "DEFAULT-PROXY"
+        }
+      ],
+      "balancers": []
+    }
+  },
+  {
+    "remarks": "🛜 🇻🇳 Вьетнам 🤗",
+    "log": {
+      "loglevel": "warning"
+    },
+    "dns": {
+      "servers": [
+        "1.1.1.1",
+        "1.0.0.1"
+      ],
+      "queryStrategy": "UseIPv4",
+      "disableFallback": false
+    },
+    "inbounds": [
+      {
+        "tag": "socks",
+        "port": 10808,
+        "listen": "127.0.0.1",
+        "protocol": "socks",
+        "settings": {
+          "udp": true
+        },
+        "sniffing": {
+          "enabled": true,
+          "destOverride": [
+            "http",
+            "tls",
+            "quic"
+          ]
+        }
+      },
+      {
+        "tag": "http",
+        "port": 10809,
+        "listen": "127.0.0.1",
+        "protocol": "http",
+        "sniffing": {
+          "enabled": true,
+          "destOverride": [
+            "http",
+            "tls",
+            "quic"
+          ]
+        }
+      }
+    ],
+    "outbounds": [
+      {
+        "tag": "proxy",
+        "protocol": "trojan",
+        "settings": {
+          "servers": [
+            {
+              "address": "144.31.50.117",
+              "port": 9443,
+              "password": "E7nVYbaVfPWVDqedaHtHRDb7vPvc6gm8"
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "viet.federal-usa.com",
+            "fingerprint": "randomized",
+            "alpn": [
+              "h2",
+              "http/1.1"
+            ]
+          }
+        }
+      },
+      {
+        "tag": "direct",
+        "protocol": "freedom",
+        "settings": {}
+      },
+      {
+        "tag": "block",
+        "protocol": "blackhole",
+        "settings": {}
+      }
+    ],
+    "routing": {
+      "domainStrategy": "IPIfNonMatch",
+      "rules": [
+        {
+          "type": "field",
+          "domain": [
+            "geosite:category-ru"
+          ],
+          "outboundTag": "direct",
+          "remarks": "RU-DIRECT: geosite:category-ru"
+        },
+        {
+          "type": "field",
+          "ip": [
+            "geoip:ru"
+          ],
+          "outboundTag": "direct",
+          "remarks": "RU-DIRECT: geoip:ru"
+        },
+        {
+          "type": "field",
+          "ip": [
+            "0.0.0.0/8",
+            "10.0.0.0/8",
+            "127.0.0.0/8",
+            "169.254.0.0/16",
+            "172.16.0.0/12",
+            "192.168.0.0/16",
+            "::1/128",
+            "fc00::/7",
+            "fe80::/10"
+          ],
+          "outboundTag": "direct",
+          "remarks": "PRIVATE-DIRECT"
+        },
+        {
+          "type": "field",
+          "ip": [
+            "0.0.0.0/8",
+            "10.0.0.0/8",
+            "127.0.0.0/8",
+            "169.254.0.0/16",
+            "172.16.0.0/12",
+            "192.168.0.0/16",
+            "::1/128",
+            "fc00::/7",
+            "fe80::/10"
+          ],
+          "outboundTag": "direct"
+        },
+        {
+          "type": "field",
+          "network": "tcp,udp",
+          "outboundTag": "proxy"
+        },
+        {
+          "type": "field",
+          "network": "tcp,udp",
+          "outboundTag": "proxy",
+          "remarks": "DEFAULT-PROXY"
+        }
+      ],
+      "balancers": []
+    }
+  }
+]
