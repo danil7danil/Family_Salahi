@@ -4061,14 +4061,6 @@
         {
           "type": "field",
           "domain": [
-            "geosite:category-ads-user"
-          ],
-          "outboundTag": "block",
-          "remarks": "GITHUB-ADBLOCK: category-ads-user"
-        },
-        {
-          "type": "field",
-          "domain": [
             "geosite:category-ru"
           ],
           "outboundTag": "direct",
@@ -6182,14 +6174,6 @@
         {
           "type": "field",
           "domain": [
-            "geosite:category-ads-user"
-          ],
-          "outboundTag": "block",
-          "remarks": "GITHUB-ADBLOCK: category-ads-user"
-        },
-        {
-          "type": "field",
-          "domain": [
             "geosite:category-ru"
           ],
           "outboundTag": "direct",
@@ -6445,14 +6429,6 @@
         }
       ],
       "rules": [
-        {
-          "type": "field",
-          "domain": [
-            "geosite:category-ads-user"
-          ],
-          "outboundTag": "block",
-          "remarks": "GITHUB-ADBLOCK: category-ads-user"
-        },
         {
           "type": "field",
           "domain": [
@@ -6740,14 +6716,6 @@
         }
       ],
       "rules": [
-        {
-          "type": "field",
-          "domain": [
-            "geosite:category-ads-user"
-          ],
-          "outboundTag": "block",
-          "remarks": "GITHUB-ADBLOCK: category-ads-user"
-        },
         {
           "type": "field",
           "domain": [
@@ -7040,14 +7008,6 @@
         {
           "type": "field",
           "domain": [
-            "geosite:category-ads-user"
-          ],
-          "outboundTag": "block",
-          "remarks": "GITHUB-ADBLOCK: category-ads-user"
-        },
-        {
-          "type": "field",
-          "domain": [
             "geosite:category-ru"
           ],
           "outboundTag": "direct",
@@ -7234,14 +7194,6 @@
         }
       ],
       "rules": [
-        {
-          "type": "field",
-          "domain": [
-            "geosite:category-ads-user"
-          ],
-          "outboundTag": "block",
-          "remarks": "GITHUB-ADBLOCK: category-ads-user"
-        },
         {
           "type": "field",
           "domain": [
@@ -7597,14 +7549,6 @@
         {
           "type": "field",
           "domain": [
-            "geosite:category-ads-user"
-          ],
-          "outboundTag": "block",
-          "remarks": "GITHUB-ADBLOCK: category-ads-user"
-        },
-        {
-          "type": "field",
-          "domain": [
             "geosite:category-ru"
           ],
           "outboundTag": "direct",
@@ -7760,14 +7704,6 @@
         }
       ],
       "rules": [
-        {
-          "type": "field",
-          "domain": [
-            "geosite:category-ads-user"
-          ],
-          "outboundTag": "block",
-          "remarks": "GITHUB-ADBLOCK: category-ads-user"
-        },
         {
           "type": "field",
           "domain": [
@@ -8122,14 +8058,6 @@
         {
           "type": "field",
           "domain": [
-            "geosite:category-ads-user"
-          ],
-          "outboundTag": "block",
-          "remarks": "GITHUB-ADBLOCK: category-ads-user"
-        },
-        {
-          "type": "field",
-          "domain": [
             "geosite:category-ru"
           ],
           "outboundTag": "direct",
@@ -8383,14 +8311,6 @@
         {
           "type": "field",
           "domain": [
-            "geosite:category-ads-user"
-          ],
-          "outboundTag": "block",
-          "remarks": "GITHUB-ADBLOCK: category-ads-user"
-        },
-        {
-          "type": "field",
-          "domain": [
             "geosite:category-ru"
           ],
           "outboundTag": "direct",
@@ -8577,14 +8497,6 @@
         }
       ],
       "rules": [
-        {
-          "type": "field",
-          "domain": [
-            "geosite:category-ads-user"
-          ],
-          "outboundTag": "block",
-          "remarks": "GITHUB-ADBLOCK: category-ads-user"
-        },
         {
           "type": "field",
           "domain": [
@@ -8968,14 +8880,6 @@
         {
           "type": "field",
           "domain": [
-            "geosite:category-ads-user"
-          ],
-          "outboundTag": "block",
-          "remarks": "GITHUB-ADBLOCK: category-ads-user"
-        },
-        {
-          "type": "field",
-          "domain": [
             "geosite:category-ru"
           ],
           "outboundTag": "direct",
@@ -9134,14 +9038,6 @@
         {
           "type": "field",
           "domain": [
-            "geosite:category-ads-user"
-          ],
-          "outboundTag": "block",
-          "remarks": "GITHUB-ADBLOCK: category-ads-user"
-        },
-        {
-          "type": "field",
-          "domain": [
             "geosite:category-ru"
           ],
           "outboundTag": "direct",
@@ -9297,14 +9193,6 @@
         }
       ],
       "rules": [
-        {
-          "type": "field",
-          "domain": [
-            "geosite:category-ads-user"
-          ],
-          "outboundTag": "block",
-          "remarks": "GITHUB-ADBLOCK: category-ads-user"
-        },
         {
           "type": "field",
           "domain": [
@@ -9499,14 +9387,6 @@
         }
       ],
       "rules": [
-        {
-          "type": "field",
-          "domain": [
-            "geosite:category-ads-user"
-          ],
-          "outboundTag": "block",
-          "remarks": "GITHUB-ADBLOCK: category-ads-user"
-        },
         {
           "type": "field",
           "domain": [
@@ -9725,14 +9605,6 @@
         {
           "type": "field",
           "domain": [
-            "geosite:category-ads-user"
-          ],
-          "outboundTag": "block",
-          "remarks": "GITHUB-ADBLOCK: category-ads-user"
-        },
-        {
-          "type": "field",
-          "domain": [
             "geosite:category-ru"
           ],
           "outboundTag": "direct",
@@ -9922,14 +9794,6 @@
         {
           "type": "field",
           "domain": [
-            "geosite:category-ads-user"
-          ],
-          "outboundTag": "block",
-          "remarks": "GITHUB-ADBLOCK: category-ads-user"
-        },
-        {
-          "type": "field",
-          "domain": [
             "geosite:category-ru"
           ],
           "outboundTag": "direct",
@@ -10088,14 +9952,6 @@
         {
           "type": "field",
           "domain": [
-            "geosite:category-ads-user"
-          ],
-          "outboundTag": "block",
-          "remarks": "GITHUB-ADBLOCK: category-ads-user"
-        },
-        {
-          "type": "field",
-          "domain": [
             "geosite:category-ru"
           ],
           "outboundTag": "direct",
@@ -10251,14 +10107,6 @@
         }
       ],
       "rules": [
-        {
-          "type": "field",
-          "domain": [
-            "geosite:category-ads-user"
-          ],
-          "outboundTag": "block",
-          "remarks": "GITHUB-ADBLOCK: category-ads-user"
-        },
         {
           "type": "field",
           "domain": [
@@ -10479,14 +10327,6 @@
         }
       ],
       "rules": [
-        {
-          "type": "field",
-          "domain": [
-            "geosite:category-ads-user"
-          ],
-          "outboundTag": "block",
-          "remarks": "GITHUB-ADBLOCK: category-ads-user"
-        },
         {
           "type": "field",
           "domain": [
@@ -10741,14 +10581,6 @@
         {
           "type": "field",
           "domain": [
-            "geosite:category-ads-user"
-          ],
-          "outboundTag": "block",
-          "remarks": "GITHUB-ADBLOCK: category-ads-user"
-        },
-        {
-          "type": "field",
-          "domain": [
             "geosite:category-ru"
           ],
           "outboundTag": "direct",
@@ -10904,14 +10736,6 @@
         }
       ],
       "rules": [
-        {
-          "type": "field",
-          "domain": [
-            "geosite:category-ads-user"
-          ],
-          "outboundTag": "block",
-          "remarks": "GITHUB-ADBLOCK: category-ads-user"
-        },
         {
           "type": "field",
           "domain": [
@@ -11073,14 +10897,6 @@
         {
           "type": "field",
           "domain": [
-            "geosite:category-ads-user"
-          ],
-          "outboundTag": "block",
-          "remarks": "GITHUB-ADBLOCK: category-ads-user"
-        },
-        {
-          "type": "field",
-          "domain": [
             "geosite:category-ru"
           ],
           "outboundTag": "direct",
@@ -11236,14 +11052,6 @@
         }
       ],
       "rules": [
-        {
-          "type": "field",
-          "domain": [
-            "geosite:category-ads-user"
-          ],
-          "outboundTag": "block",
-          "remarks": "GITHUB-ADBLOCK: category-ads-user"
-        },
         {
           "type": "field",
           "domain": [
@@ -11405,14 +11213,6 @@
         {
           "type": "field",
           "domain": [
-            "geosite:category-ads-user"
-          ],
-          "outboundTag": "block",
-          "remarks": "GITHUB-ADBLOCK: category-ads-user"
-        },
-        {
-          "type": "field",
-          "domain": [
             "geosite:category-ru"
           ],
           "outboundTag": "direct",
@@ -11568,14 +11368,6 @@
         }
       ],
       "rules": [
-        {
-          "type": "field",
-          "domain": [
-            "geosite:category-ads-user"
-          ],
-          "outboundTag": "block",
-          "remarks": "GITHUB-ADBLOCK: category-ads-user"
-        },
         {
           "type": "field",
           "domain": [
@@ -11737,14 +11529,6 @@
         {
           "type": "field",
           "domain": [
-            "geosite:category-ads-user"
-          ],
-          "outboundTag": "block",
-          "remarks": "GITHUB-ADBLOCK: category-ads-user"
-        },
-        {
-          "type": "field",
-          "domain": [
             "geosite:category-ru"
           ],
           "outboundTag": "direct",
@@ -11900,14 +11684,6 @@
         }
       ],
       "rules": [
-        {
-          "type": "field",
-          "domain": [
-            "geosite:category-ads-user"
-          ],
-          "outboundTag": "block",
-          "remarks": "GITHUB-ADBLOCK: category-ads-user"
-        },
         {
           "type": "field",
           "domain": [
@@ -12069,14 +11845,6 @@
         {
           "type": "field",
           "domain": [
-            "geosite:category-ads-user"
-          ],
-          "outboundTag": "block",
-          "remarks": "GITHUB-ADBLOCK: category-ads-user"
-        },
-        {
-          "type": "field",
-          "domain": [
             "geosite:category-ru"
           ],
           "outboundTag": "direct",
@@ -12232,14 +12000,6 @@
         }
       ],
       "rules": [
-        {
-          "type": "field",
-          "domain": [
-            "geosite:category-ads-user"
-          ],
-          "outboundTag": "block",
-          "remarks": "GITHUB-ADBLOCK: category-ads-user"
-        },
         {
           "type": "field",
           "domain": [
@@ -12401,14 +12161,6 @@
         {
           "type": "field",
           "domain": [
-            "geosite:category-ads-user"
-          ],
-          "outboundTag": "block",
-          "remarks": "GITHUB-ADBLOCK: category-ads-user"
-        },
-        {
-          "type": "field",
-          "domain": [
             "geosite:category-ru"
           ],
           "outboundTag": "direct",
@@ -12564,14 +12316,6 @@
         }
       ],
       "rules": [
-        {
-          "type": "field",
-          "domain": [
-            "geosite:category-ads-user"
-          ],
-          "outboundTag": "block",
-          "remarks": "GITHUB-ADBLOCK: category-ads-user"
-        },
         {
           "type": "field",
           "domain": [
@@ -12829,14 +12573,6 @@
         {
           "type": "field",
           "domain": [
-            "geosite:category-ads-user"
-          ],
-          "outboundTag": "block",
-          "remarks": "GITHUB-ADBLOCK: category-ads-user"
-        },
-        {
-          "type": "field",
-          "domain": [
             "geosite:category-ru"
           ],
           "outboundTag": "direct",
@@ -12988,14 +12724,6 @@
         }
       ],
       "rules": [
-        {
-          "type": "field",
-          "domain": [
-            "geosite:category-ads-user"
-          ],
-          "outboundTag": "block",
-          "remarks": "GITHUB-ADBLOCK: category-ads-user"
-        },
         {
           "type": "field",
           "domain": [
@@ -13157,14 +12885,6 @@
         {
           "type": "field",
           "domain": [
-            "geosite:category-ads-user"
-          ],
-          "outboundTag": "block",
-          "remarks": "GITHUB-ADBLOCK: category-ads-user"
-        },
-        {
-          "type": "field",
-          "domain": [
             "geosite:category-ru"
           ],
           "outboundTag": "direct",
@@ -13320,14 +13040,6 @@
         }
       ],
       "rules": [
-        {
-          "type": "field",
-          "domain": [
-            "geosite:category-ads-user"
-          ],
-          "outboundTag": "block",
-          "remarks": "GITHUB-ADBLOCK: category-ads-user"
-        },
         {
           "type": "field",
           "domain": [
@@ -13520,14 +13232,6 @@
         {
           "type": "field",
           "domain": [
-            "geosite:category-ads-user"
-          ],
-          "outboundTag": "block",
-          "remarks": "GITHUB-ADBLOCK: category-ads-user"
-        },
-        {
-          "type": "field",
-          "domain": [
             "geosite:category-ru"
           ],
           "outboundTag": "direct",
@@ -13683,14 +13387,6 @@
         }
       ],
       "rules": [
-        {
-          "type": "field",
-          "domain": [
-            "geosite:category-ads-user"
-          ],
-          "outboundTag": "block",
-          "remarks": "GITHUB-ADBLOCK: category-ads-user"
-        },
         {
           "type": "field",
           "domain": [
@@ -13880,14 +13576,6 @@
         }
       ],
       "rules": [
-        {
-          "type": "field",
-          "domain": [
-            "geosite:category-ads-user"
-          ],
-          "outboundTag": "block",
-          "remarks": "GITHUB-ADBLOCK: category-ads-user"
-        },
         {
           "type": "field",
           "domain": [
@@ -14170,14 +13858,6 @@
         }
       ],
       "rules": [
-        {
-          "type": "field",
-          "domain": [
-            "geosite:category-ads-user"
-          ],
-          "outboundTag": "block",
-          "remarks": "GITHUB-ADBLOCK: category-ads-user"
-        },
         {
           "type": "field",
           "domain": [
@@ -14490,14 +14170,6 @@
         {
           "type": "field",
           "domain": [
-            "geosite:category-ads-user"
-          ],
-          "outboundTag": "block",
-          "remarks": "GITHUB-ADBLOCK: category-ads-user"
-        },
-        {
-          "type": "field",
-          "domain": [
             "geosite:category-ru"
           ],
           "outboundTag": "direct",
@@ -14653,14 +14325,6 @@
         }
       ],
       "rules": [
-        {
-          "type": "field",
-          "domain": [
-            "geosite:category-ads-user"
-          ],
-          "outboundTag": "block",
-          "remarks": "GITHUB-ADBLOCK: category-ads-user"
-        },
         {
           "type": "field",
           "domain": [
@@ -14822,14 +14486,6 @@
         {
           "type": "field",
           "domain": [
-            "geosite:category-ads-user"
-          ],
-          "outboundTag": "block",
-          "remarks": "GITHUB-ADBLOCK: category-ads-user"
-        },
-        {
-          "type": "field",
-          "domain": [
             "geosite:category-ru"
           ],
           "outboundTag": "direct",
@@ -14985,14 +14641,6 @@
         }
       ],
       "rules": [
-        {
-          "type": "field",
-          "domain": [
-            "geosite:category-ads-user"
-          ],
-          "outboundTag": "block",
-          "remarks": "GITHUB-ADBLOCK: category-ads-user"
-        },
         {
           "type": "field",
           "domain": [
@@ -15154,14 +14802,6 @@
         {
           "type": "field",
           "domain": [
-            "geosite:category-ads-user"
-          ],
-          "outboundTag": "block",
-          "remarks": "GITHUB-ADBLOCK: category-ads-user"
-        },
-        {
-          "type": "field",
-          "domain": [
             "geosite:category-ru"
           ],
           "outboundTag": "direct",
@@ -15320,14 +14960,6 @@
         {
           "type": "field",
           "domain": [
-            "geosite:category-ads-user"
-          ],
-          "outboundTag": "block",
-          "remarks": "GITHUB-ADBLOCK: category-ads-user"
-        },
-        {
-          "type": "field",
-          "domain": [
             "geosite:category-ru"
           ],
           "outboundTag": "direct",
@@ -15483,14 +15115,6 @@
         }
       ],
       "rules": [
-        {
-          "type": "field",
-          "domain": [
-            "geosite:category-ads-user"
-          ],
-          "outboundTag": "block",
-          "remarks": "GITHUB-ADBLOCK: category-ads-user"
-        },
         {
           "type": "field",
           "domain": [
@@ -15683,14 +15307,6 @@
         {
           "type": "field",
           "domain": [
-            "geosite:category-ads-user"
-          ],
-          "outboundTag": "block",
-          "remarks": "GITHUB-ADBLOCK: category-ads-user"
-        },
-        {
-          "type": "field",
-          "domain": [
             "geosite:category-ru"
           ],
           "outboundTag": "direct",
@@ -15846,14 +15462,6 @@
         }
       ],
       "rules": [
-        {
-          "type": "field",
-          "domain": [
-            "geosite:category-ads-user"
-          ],
-          "outboundTag": "block",
-          "remarks": "GITHUB-ADBLOCK: category-ads-user"
-        },
         {
           "type": "field",
           "domain": [
@@ -16015,14 +15623,6 @@
         {
           "type": "field",
           "domain": [
-            "geosite:category-ads-user"
-          ],
-          "outboundTag": "block",
-          "remarks": "GITHUB-ADBLOCK: category-ads-user"
-        },
-        {
-          "type": "field",
-          "domain": [
             "geosite:category-ru"
           ],
           "outboundTag": "direct",
@@ -16178,14 +15778,6 @@
         }
       ],
       "rules": [
-        {
-          "type": "field",
-          "domain": [
-            "geosite:category-ads-user"
-          ],
-          "outboundTag": "block",
-          "remarks": "GITHUB-ADBLOCK: category-ads-user"
-        },
         {
           "type": "field",
           "domain": [
@@ -16347,14 +15939,6 @@
         {
           "type": "field",
           "domain": [
-            "geosite:category-ads-user"
-          ],
-          "outboundTag": "block",
-          "remarks": "GITHUB-ADBLOCK: category-ads-user"
-        },
-        {
-          "type": "field",
-          "domain": [
             "geosite:category-ru"
           ],
           "outboundTag": "direct",
@@ -16510,14 +16094,6 @@
         }
       ],
       "rules": [
-        {
-          "type": "field",
-          "domain": [
-            "geosite:category-ads-user"
-          ],
-          "outboundTag": "block",
-          "remarks": "GITHUB-ADBLOCK: category-ads-user"
-        },
         {
           "type": "field",
           "domain": [
@@ -16710,14 +16286,6 @@
         {
           "type": "field",
           "domain": [
-            "geosite:category-ads-user"
-          ],
-          "outboundTag": "block",
-          "remarks": "GITHUB-ADBLOCK: category-ads-user"
-        },
-        {
-          "type": "field",
-          "domain": [
             "geosite:category-ru"
           ],
           "outboundTag": "direct",
@@ -16873,14 +16441,6 @@
         }
       ],
       "rules": [
-        {
-          "type": "field",
-          "domain": [
-            "geosite:category-ads-user"
-          ],
-          "outboundTag": "block",
-          "remarks": "GITHUB-ADBLOCK: category-ads-user"
-        },
         {
           "type": "field",
           "domain": [
@@ -17042,14 +16602,6 @@
         {
           "type": "field",
           "domain": [
-            "geosite:category-ads-user"
-          ],
-          "outboundTag": "block",
-          "remarks": "GITHUB-ADBLOCK: category-ads-user"
-        },
-        {
-          "type": "field",
-          "domain": [
             "geosite:category-ru"
           ],
           "outboundTag": "direct",
@@ -17205,14 +16757,6 @@
         }
       ],
       "rules": [
-        {
-          "type": "field",
-          "domain": [
-            "geosite:category-ads-user"
-          ],
-          "outboundTag": "block",
-          "remarks": "GITHUB-ADBLOCK: category-ads-user"
-        },
         {
           "type": "field",
           "domain": [
@@ -17374,14 +16918,6 @@
         {
           "type": "field",
           "domain": [
-            "geosite:category-ads-user"
-          ],
-          "outboundTag": "block",
-          "remarks": "GITHUB-ADBLOCK: category-ads-user"
-        },
-        {
-          "type": "field",
-          "domain": [
             "geosite:category-ru"
           ],
           "outboundTag": "direct",
@@ -17537,14 +17073,6 @@
         }
       ],
       "rules": [
-        {
-          "type": "field",
-          "domain": [
-            "geosite:category-ads-user"
-          ],
-          "outboundTag": "block",
-          "remarks": "GITHUB-ADBLOCK: category-ads-user"
-        },
         {
           "type": "field",
           "domain": [
@@ -17706,14 +17234,6 @@
         {
           "type": "field",
           "domain": [
-            "geosite:category-ads-user"
-          ],
-          "outboundTag": "block",
-          "remarks": "GITHUB-ADBLOCK: category-ads-user"
-        },
-        {
-          "type": "field",
-          "domain": [
             "geosite:category-ru"
           ],
           "outboundTag": "direct",
@@ -17869,14 +17389,6 @@
         }
       ],
       "rules": [
-        {
-          "type": "field",
-          "domain": [
-            "geosite:category-ads-user"
-          ],
-          "outboundTag": "block",
-          "remarks": "GITHUB-ADBLOCK: category-ads-user"
-        },
         {
           "type": "field",
           "domain": [
