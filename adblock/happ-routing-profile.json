@@ -1,0 +1,7 @@
+{
+  "Name": "Family Salahi GeoBase",
+  "Geoipurl": "https://github.com/Loyalsoldier/v2ray-rules-dat/releases/latest/download/geoip.dat",
+  "Geositeurl": "https://raw.githubusercontent.com/danil7danil/Family_Salahi/main/adblock/geosite.dat",
+  "LastUpdated": "1793895792",
+  "UseChunkFiles": "true"
+}
