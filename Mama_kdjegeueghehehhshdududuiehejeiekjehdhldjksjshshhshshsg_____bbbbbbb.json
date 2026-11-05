@@ -3774,6 +3774,14 @@
         {
           "type": "field",
           "domain": [
+            "geosite:category-ads-all"
+          ],
+          "outboundTag": "block",
+          "remarks": "ADBLOCK: geosite:category-ads-all"
+        },
+        {
+          "type": "field",
+          "domain": [
             "geosite:category-ru"
           ],
           "outboundTag": "direct",
@@ -5887,6 +5895,14 @@
         {
           "type": "field",
           "domain": [
+            "geosite:category-ads-all"
+          ],
+          "outboundTag": "block",
+          "remarks": "ADBLOCK: geosite:category-ads-all"
+        },
+        {
+          "type": "field",
+          "domain": [
             "geosite:category-ru"
           ],
           "outboundTag": "direct",
@@ -6176,6 +6192,14 @@
         {
           "type": "field",
           "domain": [
+            "geosite:category-ads-all"
+          ],
+          "outboundTag": "block",
+          "remarks": "ADBLOCK: geosite:category-ads-all"
+        },
+        {
+          "type": "field",
+          "domain": [
             "geosite:category-ru"
           ],
           "outboundTag": "direct",
@@ -6460,6 +6484,14 @@
         }
       ],
       "rules": [
+        {
+          "type": "field",
+          "domain": [
+            "geosite:category-ads-all"
+          ],
+          "outboundTag": "block",
+          "remarks": "ADBLOCK: geosite:category-ads-all"
+        },
         {
           "type": "field",
           "domain": [
@@ -6752,6 +6784,14 @@
         {
           "type": "field",
           "domain": [
+            "geosite:category-ads-all"
+          ],
+          "outboundTag": "block",
+          "remarks": "ADBLOCK: geosite:category-ads-all"
+        },
+        {
+          "type": "field",
+          "domain": [
             "geosite:category-ru"
           ],
           "outboundTag": "direct",
@@ -6938,6 +6978,14 @@
         }
       ],
       "rules": [
+        {
+          "type": "field",
+          "domain": [
+            "geosite:category-ads-all"
+          ],
+          "outboundTag": "block",
+          "remarks": "ADBLOCK: geosite:category-ads-all"
+        },
         {
           "type": "field",
           "domain": [
@@ -7293,6 +7341,14 @@
         {
           "type": "field",
           "domain": [
+            "geosite:category-ads-all"
+          ],
+          "outboundTag": "block",
+          "remarks": "ADBLOCK: geosite:category-ads-all"
+        },
+        {
+          "type": "field",
+          "domain": [
             "geosite:category-ru"
           ],
           "outboundTag": "direct",
@@ -7448,6 +7504,14 @@
         }
       ],
       "rules": [
+        {
+          "type": "field",
+          "domain": [
+            "geosite:category-ads-all"
+          ],
+          "outboundTag": "block",
+          "remarks": "ADBLOCK: geosite:category-ads-all"
+        },
         {
           "type": "field",
           "domain": [
@@ -7802,6 +7866,14 @@
         {
           "type": "field",
           "domain": [
+            "geosite:category-ads-all"
+          ],
+          "outboundTag": "block",
+          "remarks": "ADBLOCK: geosite:category-ads-all"
+        },
+        {
+          "type": "field",
+          "domain": [
             "geosite:category-ru"
           ],
           "outboundTag": "direct",
@@ -8024,6 +8096,14 @@
         {
           "type": "field",
           "domain": [
+            "geosite:category-ads-all"
+          ],
+          "outboundTag": "block",
+          "remarks": "ADBLOCK: geosite:category-ads-all"
+        },
+        {
+          "type": "field",
+          "domain": [
             "geosite:category-ru"
           ],
           "outboundTag": "direct",
@@ -8210,6 +8290,14 @@
         }
       ],
       "rules": [
+        {
+          "type": "field",
+          "domain": [
+            "geosite:category-ads-all"
+          ],
+          "outboundTag": "block",
+          "remarks": "ADBLOCK: geosite:category-ads-all"
+        },
         {
           "type": "field",
           "domain": [
@@ -8593,6 +8681,14 @@
         {
           "type": "field",
           "domain": [
+            "geosite:category-ads-all"
+          ],
+          "outboundTag": "block",
+          "remarks": "ADBLOCK: geosite:category-ads-all"
+        },
+        {
+          "type": "field",
+          "domain": [
             "geosite:category-ru"
           ],
           "outboundTag": "direct",
@@ -8748,6 +8844,14 @@
         }
       ],
       "rules": [
+        {
+          "type": "field",
+          "domain": [
+            "geosite:category-ads-all"
+          ],
+          "outboundTag": "block",
+          "remarks": "ADBLOCK: geosite:category-ads-all"
+        },
         {
           "type": "field",
           "domain": [
@@ -8942,6 +9046,14 @@
         }
       ],
       "rules": [
+        {
+          "type": "field",
+          "domain": [
+            "geosite:category-ads-all"
+          ],
+          "outboundTag": "block",
+          "remarks": "ADBLOCK: geosite:category-ads-all"
+        },
         {
           "type": "field",
           "domain": [
@@ -9160,6 +9272,14 @@
         {
           "type": "field",
           "domain": [
+            "geosite:category-ads-all"
+          ],
+          "outboundTag": "block",
+          "remarks": "ADBLOCK: geosite:category-ads-all"
+        },
+        {
+          "type": "field",
+          "domain": [
             "geosite:category-ru"
           ],
           "outboundTag": "direct",
@@ -9349,6 +9469,14 @@
         {
           "type": "field",
           "domain": [
+            "geosite:category-ads-all"
+          ],
+          "outboundTag": "block",
+          "remarks": "ADBLOCK: geosite:category-ads-all"
+        },
+        {
+          "type": "field",
+          "domain": [
             "geosite:category-ru"
           ],
           "outboundTag": "direct",
@@ -9507,6 +9635,14 @@
         {
           "type": "field",
           "domain": [
+            "geosite:category-ads-all"
+          ],
+          "outboundTag": "block",
+          "remarks": "ADBLOCK: geosite:category-ads-all"
+        },
+        {
+          "type": "field",
+          "domain": [
             "geosite:category-ru"
           ],
           "outboundTag": "direct",
@@ -9662,6 +9798,14 @@
         }
       ],
       "rules": [
+        {
+          "type": "field",
+          "domain": [
+            "geosite:category-ads-all"
+          ],
+          "outboundTag": "block",
+          "remarks": "ADBLOCK: geosite:category-ads-all"
+        },
         {
           "type": "field",
           "domain": [
@@ -9882,6 +10026,14 @@
         }
       ],
       "rules": [
+        {
+          "type": "field",
+          "domain": [
+            "geosite:category-ads-all"
+          ],
+          "outboundTag": "block",
+          "remarks": "ADBLOCK: geosite:category-ads-all"
+        },
         {
           "type": "field",
           "domain": [
@@ -10136,6 +10288,14 @@
         {
           "type": "field",
           "domain": [
+            "geosite:category-ads-all"
+          ],
+          "outboundTag": "block",
+          "remarks": "ADBLOCK: geosite:category-ads-all"
+        },
+        {
+          "type": "field",
+          "domain": [
             "geosite:category-ru"
           ],
           "outboundTag": "direct",
@@ -10291,6 +10451,14 @@
         }
       ],
       "rules": [
+        {
+          "type": "field",
+          "domain": [
+            "geosite:category-ads-all"
+          ],
+          "outboundTag": "block",
+          "remarks": "ADBLOCK: geosite:category-ads-all"
+        },
         {
           "type": "field",
           "domain": [
@@ -10452,6 +10620,14 @@
         {
           "type": "field",
           "domain": [
+            "geosite:category-ads-all"
+          ],
+          "outboundTag": "block",
+          "remarks": "ADBLOCK: geosite:category-ads-all"
+        },
+        {
+          "type": "field",
+          "domain": [
             "geosite:category-ru"
           ],
           "outboundTag": "direct",
@@ -10607,6 +10783,14 @@
         }
       ],
       "rules": [
+        {
+          "type": "field",
+          "domain": [
+            "geosite:category-ads-all"
+          ],
+          "outboundTag": "block",
+          "remarks": "ADBLOCK: geosite:category-ads-all"
+        },
         {
           "type": "field",
           "domain": [
@@ -10768,6 +10952,14 @@
         {
           "type": "field",
           "domain": [
+            "geosite:category-ads-all"
+          ],
+          "outboundTag": "block",
+          "remarks": "ADBLOCK: geosite:category-ads-all"
+        },
+        {
+          "type": "field",
+          "domain": [
             "geosite:category-ru"
           ],
           "outboundTag": "direct",
@@ -10923,6 +11115,14 @@
         }
       ],
       "rules": [
+        {
+          "type": "field",
+          "domain": [
+            "geosite:category-ads-all"
+          ],
+          "outboundTag": "block",
+          "remarks": "ADBLOCK: geosite:category-ads-all"
+        },
         {
           "type": "field",
           "domain": [
@@ -11084,6 +11284,14 @@
         {
           "type": "field",
           "domain": [
+            "geosite:category-ads-all"
+          ],
+          "outboundTag": "block",
+          "remarks": "ADBLOCK: geosite:category-ads-all"
+        },
+        {
+          "type": "field",
+          "domain": [
             "geosite:category-ru"
           ],
           "outboundTag": "direct",
@@ -11239,6 +11447,14 @@
         }
       ],
       "rules": [
+        {
+          "type": "field",
+          "domain": [
+            "geosite:category-ads-all"
+          ],
+          "outboundTag": "block",
+          "remarks": "ADBLOCK: geosite:category-ads-all"
+        },
         {
           "type": "field",
           "domain": [
@@ -11400,6 +11616,14 @@
         {
           "type": "field",
           "domain": [
+            "geosite:category-ads-all"
+          ],
+          "outboundTag": "block",
+          "remarks": "ADBLOCK: geosite:category-ads-all"
+        },
+        {
+          "type": "field",
+          "domain": [
             "geosite:category-ru"
           ],
           "outboundTag": "direct",
@@ -11555,6 +11779,14 @@
         }
       ],
       "rules": [
+        {
+          "type": "field",
+          "domain": [
+            "geosite:category-ads-all"
+          ],
+          "outboundTag": "block",
+          "remarks": "ADBLOCK: geosite:category-ads-all"
+        },
         {
           "type": "field",
           "domain": [
@@ -11716,6 +11948,14 @@
         {
           "type": "field",
           "domain": [
+            "geosite:category-ads-all"
+          ],
+          "outboundTag": "block",
+          "remarks": "ADBLOCK: geosite:category-ads-all"
+        },
+        {
+          "type": "field",
+          "domain": [
             "geosite:category-ru"
           ],
           "outboundTag": "direct",
@@ -11871,6 +12111,14 @@
         }
       ],
       "rules": [
+        {
+          "type": "field",
+          "domain": [
+            "geosite:category-ads-all"
+          ],
+          "outboundTag": "block",
+          "remarks": "ADBLOCK: geosite:category-ads-all"
+        },
         {
           "type": "field",
           "domain": [
@@ -12128,6 +12376,14 @@
         {
           "type": "field",
           "domain": [
+            "geosite:category-ads-all"
+          ],
+          "outboundTag": "block",
+          "remarks": "ADBLOCK: geosite:category-ads-all"
+        },
+        {
+          "type": "field",
+          "domain": [
             "geosite:category-ru"
           ],
           "outboundTag": "direct",
@@ -12279,6 +12535,14 @@
         }
       ],
       "rules": [
+        {
+          "type": "field",
+          "domain": [
+            "geosite:category-ads-all"
+          ],
+          "outboundTag": "block",
+          "remarks": "ADBLOCK: geosite:category-ads-all"
+        },
         {
           "type": "field",
           "domain": [
@@ -12440,6 +12704,14 @@
         {
           "type": "field",
           "domain": [
+            "geosite:category-ads-all"
+          ],
+          "outboundTag": "block",
+          "remarks": "ADBLOCK: geosite:category-ads-all"
+        },
+        {
+          "type": "field",
+          "domain": [
             "geosite:category-ru"
           ],
           "outboundTag": "direct",
@@ -12595,6 +12867,14 @@
         }
       ],
       "rules": [
+        {
+          "type": "field",
+          "domain": [
+            "geosite:category-ads-all"
+          ],
+          "outboundTag": "block",
+          "remarks": "ADBLOCK: geosite:category-ads-all"
+        },
         {
           "type": "field",
           "domain": [
@@ -12787,6 +13067,14 @@
         {
           "type": "field",
           "domain": [
+            "geosite:category-ads-all"
+          ],
+          "outboundTag": "block",
+          "remarks": "ADBLOCK: geosite:category-ads-all"
+        },
+        {
+          "type": "field",
+          "domain": [
             "geosite:category-ru"
           ],
           "outboundTag": "direct",
@@ -12942,6 +13230,14 @@
         }
       ],
       "rules": [
+        {
+          "type": "field",
+          "domain": [
+            "geosite:category-ads-all"
+          ],
+          "outboundTag": "block",
+          "remarks": "ADBLOCK: geosite:category-ads-all"
+        },
         {
           "type": "field",
           "domain": [
@@ -13131,6 +13427,14 @@
         }
       ],
       "rules": [
+        {
+          "type": "field",
+          "domain": [
+            "geosite:category-ads-all"
+          ],
+          "outboundTag": "block",
+          "remarks": "ADBLOCK: geosite:category-ads-all"
+        },
         {
           "type": "field",
           "domain": [
@@ -13413,6 +13717,14 @@
         }
       ],
       "rules": [
+        {
+          "type": "field",
+          "domain": [
+            "geosite:category-ads-all"
+          ],
+          "outboundTag": "block",
+          "remarks": "ADBLOCK: geosite:category-ads-all"
+        },
         {
           "type": "field",
           "domain": [
@@ -13725,6 +14037,14 @@
         {
           "type": "field",
           "domain": [
+            "geosite:category-ads-all"
+          ],
+          "outboundTag": "block",
+          "remarks": "ADBLOCK: geosite:category-ads-all"
+        },
+        {
+          "type": "field",
+          "domain": [
             "geosite:category-ru"
           ],
           "outboundTag": "direct",
@@ -13880,6 +14200,14 @@
         }
       ],
       "rules": [
+        {
+          "type": "field",
+          "domain": [
+            "geosite:category-ads-all"
+          ],
+          "outboundTag": "block",
+          "remarks": "ADBLOCK: geosite:category-ads-all"
+        },
         {
           "type": "field",
           "domain": [
@@ -14041,6 +14369,14 @@
         {
           "type": "field",
           "domain": [
+            "geosite:category-ads-all"
+          ],
+          "outboundTag": "block",
+          "remarks": "ADBLOCK: geosite:category-ads-all"
+        },
+        {
+          "type": "field",
+          "domain": [
             "geosite:category-ru"
           ],
           "outboundTag": "direct",
@@ -14196,6 +14532,14 @@
         }
       ],
       "rules": [
+        {
+          "type": "field",
+          "domain": [
+            "geosite:category-ads-all"
+          ],
+          "outboundTag": "block",
+          "remarks": "ADBLOCK: geosite:category-ads-all"
+        },
         {
           "type": "field",
           "domain": [
@@ -14357,6 +14701,14 @@
         {
           "type": "field",
           "domain": [
+            "geosite:category-ads-all"
+          ],
+          "outboundTag": "block",
+          "remarks": "ADBLOCK: geosite:category-ads-all"
+        },
+        {
+          "type": "field",
+          "domain": [
             "geosite:category-ru"
           ],
           "outboundTag": "direct",
@@ -14515,6 +14867,14 @@
         {
           "type": "field",
           "domain": [
+            "geosite:category-ads-all"
+          ],
+          "outboundTag": "block",
+          "remarks": "ADBLOCK: geosite:category-ads-all"
+        },
+        {
+          "type": "field",
+          "domain": [
             "geosite:category-ru"
           ],
           "outboundTag": "direct",
@@ -14670,6 +15030,14 @@
         }
       ],
       "rules": [
+        {
+          "type": "field",
+          "domain": [
+            "geosite:category-ads-all"
+          ],
+          "outboundTag": "block",
+          "remarks": "ADBLOCK: geosite:category-ads-all"
+        },
         {
           "type": "field",
           "domain": [
@@ -14862,6 +15230,14 @@
         {
           "type": "field",
           "domain": [
+            "geosite:category-ads-all"
+          ],
+          "outboundTag": "block",
+          "remarks": "ADBLOCK: geosite:category-ads-all"
+        },
+        {
+          "type": "field",
+          "domain": [
             "geosite:category-ru"
           ],
           "outboundTag": "direct",
@@ -15017,6 +15393,14 @@
         }
       ],
       "rules": [
+        {
+          "type": "field",
+          "domain": [
+            "geosite:category-ads-all"
+          ],
+          "outboundTag": "block",
+          "remarks": "ADBLOCK: geosite:category-ads-all"
+        },
         {
           "type": "field",
           "domain": [
@@ -15178,6 +15562,14 @@
         {
           "type": "field",
           "domain": [
+            "geosite:category-ads-all"
+          ],
+          "outboundTag": "block",
+          "remarks": "ADBLOCK: geosite:category-ads-all"
+        },
+        {
+          "type": "field",
+          "domain": [
             "geosite:category-ru"
           ],
           "outboundTag": "direct",
@@ -15333,6 +15725,14 @@
         }
       ],
       "rules": [
+        {
+          "type": "field",
+          "domain": [
+            "geosite:category-ads-all"
+          ],
+          "outboundTag": "block",
+          "remarks": "ADBLOCK: geosite:category-ads-all"
+        },
         {
           "type": "field",
           "domain": [
@@ -15494,6 +15894,14 @@
         {
           "type": "field",
           "domain": [
+            "geosite:category-ads-all"
+          ],
+          "outboundTag": "block",
+          "remarks": "ADBLOCK: geosite:category-ads-all"
+        },
+        {
+          "type": "field",
+          "domain": [
             "geosite:category-ru"
           ],
           "outboundTag": "direct",
@@ -15649,6 +16057,14 @@
         }
       ],
       "rules": [
+        {
+          "type": "field",
+          "domain": [
+            "geosite:category-ads-all"
+          ],
+          "outboundTag": "block",
+          "remarks": "ADBLOCK: geosite:category-ads-all"
+        },
         {
           "type": "field",
           "domain": [
@@ -15841,6 +16257,14 @@
         {
           "type": "field",
           "domain": [
+            "geosite:category-ads-all"
+          ],
+          "outboundTag": "block",
+          "remarks": "ADBLOCK: geosite:category-ads-all"
+        },
+        {
+          "type": "field",
+          "domain": [
             "geosite:category-ru"
           ],
           "outboundTag": "direct",
@@ -15996,6 +16420,14 @@
         }
       ],
       "rules": [
+        {
+          "type": "field",
+          "domain": [
+            "geosite:category-ads-all"
+          ],
+          "outboundTag": "block",
+          "remarks": "ADBLOCK: geosite:category-ads-all"
+        },
         {
           "type": "field",
           "domain": [
@@ -16157,6 +16589,14 @@
         {
           "type": "field",
           "domain": [
+            "geosite:category-ads-all"
+          ],
+          "outboundTag": "block",
+          "remarks": "ADBLOCK: geosite:category-ads-all"
+        },
+        {
+          "type": "field",
+          "domain": [
             "geosite:category-ru"
           ],
           "outboundTag": "direct",
@@ -16312,6 +16752,14 @@
         }
       ],
       "rules": [
+        {
+          "type": "field",
+          "domain": [
+            "geosite:category-ads-all"
+          ],
+          "outboundTag": "block",
+          "remarks": "ADBLOCK: geosite:category-ads-all"
+        },
         {
           "type": "field",
           "domain": [
@@ -16473,6 +16921,14 @@
         {
           "type": "field",
           "domain": [
+            "geosite:category-ads-all"
+          ],
+          "outboundTag": "block",
+          "remarks": "ADBLOCK: geosite:category-ads-all"
+        },
+        {
+          "type": "field",
+          "domain": [
             "geosite:category-ru"
           ],
           "outboundTag": "direct",
@@ -16628,6 +17084,14 @@
         }
       ],
       "rules": [
+        {
+          "type": "field",
+          "domain": [
+            "geosite:category-ads-all"
+          ],
+          "outboundTag": "block",
+          "remarks": "ADBLOCK: geosite:category-ads-all"
+        },
         {
           "type": "field",
           "domain": [
@@ -16789,6 +17253,14 @@
         {
           "type": "field",
           "domain": [
+            "geosite:category-ads-all"
+          ],
+          "outboundTag": "block",
+          "remarks": "ADBLOCK: geosite:category-ads-all"
+        },
+        {
+          "type": "field",
+          "domain": [
             "geosite:category-ru"
           ],
           "outboundTag": "direct",
@@ -16944,6 +17416,14 @@
         }
       ],
       "rules": [
+        {
+          "type": "field",
+          "domain": [
+            "geosite:category-ads-all"
+          ],
+          "outboundTag": "block",
+          "remarks": "ADBLOCK: geosite:category-ads-all"
+        },
         {
           "type": "field",
           "domain": [
