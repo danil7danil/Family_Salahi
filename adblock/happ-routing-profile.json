@@ -2,6 +2,16 @@
   "Name": "Family Salahi GeoBase",
   "Geoipurl": "https://github.com/Loyalsoldier/v2ray-rules-dat/releases/latest/download/geoip.dat",
   "Geositeurl": "https://raw.githubusercontent.com/danil7danil/Family_Salahi/main/adblock/geosite.dat",
-  "LastUpdated": "1793895792",
-  "UseChunkFiles": "true"
+  "LastUpdated": "1793896020",
+  "UseChunkFiles": "true",
+  "BlockSites": [
+    "geosite:category-ads-user"
+  ],
+  "BlockIp": [],
+  "DirectSites": [],
+  "DirectIp": [],
+  "ProxySites": [],
+  "ProxyIp": [],
+  "DomainStrategy": "IPIfNonMatch",
+  "FakeDNS": "false"
 }
