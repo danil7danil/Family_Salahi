@@ -1,0 +1,1079 @@
+[
+  {
+    "remarks": "🇪🇺 🛜Авто🤗",
+    "log": {
+      "loglevel": "warning"
+    },
+    "dns": {
+      "servers": [
+        "1.1.1.1",
+        "1.0.0.1"
+      ],
+      "queryStrategy": "UseIPv4",
+      "disableFallback": false
+    },
+    "inbounds": [
+      {
+        "tag": "socks",
+        "port": 10808,
+        "listen": "127.0.0.1",
+        "protocol": "socks",
+        "settings": {
+          "udp": true
+        },
+        "sniffing": {
+          "enabled": true,
+          "destOverride": [
+            "http",
+            "tls",
+            "quic"
+          ]
+        }
+      },
+      {
+        "tag": "http",
+        "port": 10809,
+        "listen": "127.0.0.1",
+        "protocol": "http",
+        "sniffing": {
+          "enabled": true,
+          "destOverride": [
+            "http",
+            "tls",
+            "quic"
+          ]
+        }
+      }
+    ],
+    "outbounds": [
+      {
+        "tag": "direct",
+        "protocol": "freedom",
+        "settings": {}
+      },
+      {
+        "tag": "block",
+        "protocol": "blackhole",
+        "settings": {}
+      }
+    ],
+    "routing": {
+      "domainStrategy": "IPIfNonMatch",
+      "balancers": [],
+      "rules": [
+        {
+          "type": "field",
+          "domain": [
+            "geosite:category-ads-user"
+          ],
+          "outboundTag": "block",
+          "remarks": "GITHUB-ADBLOCK: category-ads-user"
+        },
+        {
+          "type": "field",
+          "domain": [
+            "geosite:category-ru"
+          ],
+          "outboundTag": "direct",
+          "remarks": "RU-DIRECT: geosite:category-ru"
+        },
+        {
+          "type": "field",
+          "ip": [
+            "geoip:ru"
+          ],
+          "outboundTag": "direct",
+          "remarks": "RU-DIRECT: geoip:ru"
+        },
+        {
+          "type": "field",
+          "ip": [
+            "0.0.0.0/8",
+            "10.0.0.0/8",
+            "127.0.0.0/8",
+            "169.254.0.0/16",
+            "172.16.0.0/12",
+            "192.168.0.0/16",
+            "::1/128",
+            "fc00::/7",
+            "fe80::/10"
+          ],
+          "outboundTag": "direct",
+          "remarks": "PRIVATE-DIRECT"
+        }
+      ]
+    },
+    "observatory": {
+      "subjectSelector": []
+    }
+  },
+  {
+    "remarks": "🇪🇺📶 Авто 🤗📶 Чебурнет 🤗💣БС",
+    "log": {
+      "loglevel": "warning"
+    },
+    "dns": {
+      "servers": [
+        "1.1.1.1",
+        "1.0.0.1"
+      ],
+      "queryStrategy": "UseIPv4",
+      "disableFallback": false
+    },
+    "inbounds": [
+      {
+        "tag": "socks",
+        "port": 10808,
+        "listen": "127.0.0.1",
+        "protocol": "socks",
+        "settings": {
+          "udp": true
+        },
+        "sniffing": {
+          "enabled": true,
+          "destOverride": [
+            "http",
+            "tls",
+            "quic"
+          ]
+        }
+      },
+      {
+        "tag": "http",
+        "port": 10809,
+        "listen": "127.0.0.1",
+        "protocol": "http",
+        "sniffing": {
+          "enabled": true,
+          "destOverride": [
+            "http",
+            "tls",
+            "quic"
+          ]
+        }
+      }
+    ],
+    "outbounds": [
+      {
+        "tag": "direct",
+        "protocol": "freedom",
+        "settings": {}
+      },
+      {
+        "tag": "block",
+        "protocol": "blackhole",
+        "settings": {}
+      }
+    ],
+    "routing": {
+      "domainStrategy": "IPIfNonMatch",
+      "balancers": [],
+      "rules": [
+        {
+          "type": "field",
+          "domain": [
+            "geosite:category-ads-user"
+          ],
+          "outboundTag": "block",
+          "remarks": "GITHUB-ADBLOCK: category-ads-user"
+        },
+        {
+          "type": "field",
+          "domain": [
+            "geosite:category-ru"
+          ],
+          "outboundTag": "direct",
+          "remarks": "RU-DIRECT: geosite:category-ru"
+        },
+        {
+          "type": "field",
+          "ip": [
+            "geoip:ru"
+          ],
+          "outboundTag": "direct",
+          "remarks": "RU-DIRECT: geoip:ru"
+        },
+        {
+          "type": "field",
+          "ip": [
+            "0.0.0.0/8",
+            "10.0.0.0/8",
+            "127.0.0.0/8",
+            "169.254.0.0/16",
+            "172.16.0.0/12",
+            "192.168.0.0/16",
+            "::1/128",
+            "fc00::/7",
+            "fe80::/10"
+          ],
+          "outboundTag": "direct",
+          "remarks": "PRIVATE-DIRECT"
+        }
+      ]
+    },
+    "observatory": {
+      "subjectSelector": []
+    }
+  },
+  {
+    "remarks": "🇱🇮 🤗 Авто 🤗 🛜 🇱🇮 Лихтенштейн 🤗",
+    "log": {
+      "loglevel": "warning"
+    },
+    "dns": {
+      "servers": [
+        "1.1.1.1",
+        "1.0.0.1"
+      ],
+      "queryStrategy": "UseIPv4",
+      "disableFallback": false
+    },
+    "inbounds": [
+      {
+        "tag": "socks",
+        "port": 10808,
+        "listen": "127.0.0.1",
+        "protocol": "socks",
+        "settings": {
+          "udp": true
+        },
+        "sniffing": {
+          "enabled": true,
+          "destOverride": [
+            "http",
+            "tls",
+            "quic"
+          ]
+        }
+      },
+      {
+        "tag": "http",
+        "port": 10809,
+        "listen": "127.0.0.1",
+        "protocol": "http",
+        "sniffing": {
+          "enabled": true,
+          "destOverride": [
+            "http",
+            "tls",
+            "quic"
+          ]
+        }
+      }
+    ],
+    "outbounds": [
+      {
+        "tag": "ca-1f6dc201f1f11f1ee2041b43844544243543d44844243543943d201f917-0",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "89.125.99.34",
+              "port": 443,
+              "users": [
+                {
+                  "id": "018984cd-bac7-0fe8-b863-d1ac2d470dd8",
+                  "encryption": "none",
+                  "flow": "xtls-rprx-vision"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "67bc4901fb6f.j.cloudfront.hls.ttvnw.net",
+            "publicKey": "10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc",
+            "shortId": "43dcff53849b81e6",
+            "fingerprint": "chrome"
+          }
+        },
+        "_locationHint": "🇱🇮 Лихтенштейн",
+        "_sourceName": "🇱🇮 Лихтенштейн"
+      },
+      {
+        "tag": "ca-1f6dc201f1f11f1ee2041b43844544243543d44844243543943d201f917-1",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "89.125.99.34",
+              "port": 443,
+              "users": [
+                {
+                  "id": "018984cd-bac7-1085-b863-d1ac2d470dd8",
+                  "encryption": "none",
+                  "flow": "xtls-rprx-vision"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "4130853292bb.j.cloudfront.hls.ttvnw.net",
+            "publicKey": "10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc",
+            "shortId": "43dcff53849b81e6",
+            "fingerprint": "edge"
+          }
+        },
+        "_locationHint": "🇱🇮 Лихтенштейн #2",
+        "_sourceName": "🇱🇮 Лихтенштейн #2"
+      },
+      {
+        "tag": "direct",
+        "protocol": "freedom",
+        "settings": {}
+      },
+      {
+        "tag": "block",
+        "protocol": "blackhole",
+        "settings": {}
+      }
+    ],
+    "routing": {
+      "domainStrategy": "IPIfNonMatch",
+      "balancers": [
+        {
+          "tag": "ca-1f6dc201f1f11f1ee2041b43844544243543d44844243543943d201f917-balancer",
+          "selector": [
+            "ca-1f6dc201f1f11f1ee2041b43844544243543d44844243543943d201f917-"
+          ],
+          "strategy": {
+            "type": "leastLoad",
+            "settings": {
+              "maxRTT": "900ms",
+              "expected": 1,
+              "tolerance": 0.1
+            }
+          },
+          "fallbackTag": "ca-1f6dc201f1f11f1ee2041b43844544243543d44844243543943d201f917-0"
+        }
+      ],
+      "rules": [
+        {
+          "type": "field",
+          "domain": [
+            "geosite:category-ads-user"
+          ],
+          "outboundTag": "block",
+          "remarks": "GITHUB-ADBLOCK: category-ads-user"
+        },
+        {
+          "type": "field",
+          "domain": [
+            "geosite:category-ru"
+          ],
+          "outboundTag": "direct",
+          "remarks": "RU-DIRECT: geosite:category-ru"
+        },
+        {
+          "type": "field",
+          "ip": [
+            "geoip:ru"
+          ],
+          "outboundTag": "direct",
+          "remarks": "RU-DIRECT: geoip:ru"
+        },
+        {
+          "type": "field",
+          "ip": [
+            "0.0.0.0/8",
+            "10.0.0.0/8",
+            "127.0.0.0/8",
+            "169.254.0.0/16",
+            "172.16.0.0/12",
+            "192.168.0.0/16",
+            "::1/128",
+            "fc00::/7",
+            "fe80::/10"
+          ],
+          "outboundTag": "direct",
+          "remarks": "PRIVATE-DIRECT"
+        },
+        {
+          "type": "field",
+          "network": "tcp,udp",
+          "balancerTag": "ca-1f6dc201f1f11f1ee2041b43844544243543d44844243543943d201f917-balancer",
+          "remarks": "DEFAULT-COUNTRY-AUTO-BALANCER"
+        }
+      ]
+    },
+    "observatory": {
+      "subjectSelector": [
+        "ca-1f6dc201f1f11f1ee2041b43844544243543d44844243543943d201f917-"
+      ],
+      "probeUrl": "https://www.gstatic.com/generate_204",
+      "probeInterval": "10s",
+      "enableConcurrency": true
+    }
+  },
+  {
+    "remarks": "🇪🇹 🤗 Авто 🤗 🛜 🇪🇹 Эфиопия 🤗",
+    "log": {
+      "loglevel": "warning"
+    },
+    "dns": {
+      "servers": [
+        "1.1.1.1",
+        "1.0.0.1"
+      ],
+      "queryStrategy": "UseIPv4",
+      "disableFallback": false
+    },
+    "inbounds": [
+      {
+        "tag": "socks",
+        "port": 10808,
+        "listen": "127.0.0.1",
+        "protocol": "socks",
+        "settings": {
+          "udp": true
+        },
+        "sniffing": {
+          "enabled": true,
+          "destOverride": [
+            "http",
+            "tls",
+            "quic"
+          ]
+        }
+      },
+      {
+        "tag": "http",
+        "port": 10809,
+        "listen": "127.0.0.1",
+        "protocol": "http",
+        "sniffing": {
+          "enabled": true,
+          "destOverride": [
+            "http",
+            "tls",
+            "quic"
+          ]
+        }
+      }
+    ],
+    "outbounds": [
+      {
+        "tag": "ca-1f6dc201f1ea1f1f92042d44443843e43f43844f201f917-0",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "89.125.99.34",
+              "port": 443,
+              "users": [
+                {
+                  "id": "018984cd-bac7-1031-b863-d1ac2d470dd8",
+                  "encryption": "none",
+                  "flow": "xtls-rprx-vision"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "08ab3f18596a.j.cloudfront.hls.ttvnw.net",
+            "publicKey": "10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc",
+            "shortId": "43dcff53849b81e6",
+            "fingerprint": "chrome"
+          }
+        },
+        "_locationHint": "🇪🇹 Эфиопия",
+        "_sourceName": "🇪🇹 Эфиопия"
+      },
+      {
+        "tag": "direct",
+        "protocol": "freedom",
+        "settings": {}
+      },
+      {
+        "tag": "block",
+        "protocol": "blackhole",
+        "settings": {}
+      }
+    ],
+    "routing": {
+      "domainStrategy": "IPIfNonMatch",
+      "balancers": [
+        {
+          "tag": "ca-1f6dc201f1ea1f1f92042d44443843e43f43844f201f917-balancer",
+          "selector": [
+            "ca-1f6dc201f1ea1f1f92042d44443843e43f43844f201f917-"
+          ],
+          "strategy": {
+            "type": "leastLoad",
+            "settings": {
+              "maxRTT": "900ms",
+              "expected": 1,
+              "tolerance": 0.1
+            }
+          },
+          "fallbackTag": "ca-1f6dc201f1ea1f1f92042d44443843e43f43844f201f917-0"
+        }
+      ],
+      "rules": [
+        {
+          "type": "field",
+          "domain": [
+            "geosite:category-ads-user"
+          ],
+          "outboundTag": "block",
+          "remarks": "GITHUB-ADBLOCK: category-ads-user"
+        },
+        {
+          "type": "field",
+          "domain": [
+            "geosite:category-ru"
+          ],
+          "outboundTag": "direct",
+          "remarks": "RU-DIRECT: geosite:category-ru"
+        },
+        {
+          "type": "field",
+          "ip": [
+            "geoip:ru"
+          ],
+          "outboundTag": "direct",
+          "remarks": "RU-DIRECT: geoip:ru"
+        },
+        {
+          "type": "field",
+          "ip": [
+            "0.0.0.0/8",
+            "10.0.0.0/8",
+            "127.0.0.0/8",
+            "169.254.0.0/16",
+            "172.16.0.0/12",
+            "192.168.0.0/16",
+            "::1/128",
+            "fc00::/7",
+            "fe80::/10"
+          ],
+          "outboundTag": "direct",
+          "remarks": "PRIVATE-DIRECT"
+        },
+        {
+          "type": "field",
+          "network": "tcp,udp",
+          "balancerTag": "ca-1f6dc201f1ea1f1f92042d44443843e43f43844f201f917-balancer",
+          "remarks": "DEFAULT-COUNTRY-AUTO-BALANCER"
+        }
+      ]
+    },
+    "observatory": {
+      "subjectSelector": [
+        "ca-1f6dc201f1ea1f1f92042d44443843e43f43844f201f917-"
+      ],
+      "probeUrl": "https://www.gstatic.com/generate_204",
+      "probeInterval": "10s",
+      "enableConcurrency": true
+    }
+  },
+  {
+    "remarks": "🇨🇮 🤗 Авто 🤗 🛜 🇨🇮 Кот-д’Ивуар 🤗",
+    "log": {
+      "loglevel": "warning"
+    },
+    "dns": {
+      "servers": [
+        "1.1.1.1",
+        "1.0.0.1"
+      ],
+      "queryStrategy": "UseIPv4",
+      "disableFallback": false
+    },
+    "inbounds": [
+      {
+        "tag": "socks",
+        "port": 10808,
+        "listen": "127.0.0.1",
+        "protocol": "socks",
+        "settings": {
+          "udp": true
+        },
+        "sniffing": {
+          "enabled": true,
+          "destOverride": [
+            "http",
+            "tls",
+            "quic"
+          ]
+        }
+      },
+      {
+        "tag": "http",
+        "port": 10809,
+        "listen": "127.0.0.1",
+        "protocol": "http",
+        "sniffing": {
+          "enabled": true,
+          "destOverride": [
+            "http",
+            "tls",
+            "quic"
+          ]
+        }
+      }
+    ],
+    "outbounds": [
+      {
+        "tag": "ca-1f6dc201f1e81f1ee2041a43e4422d4342019418432443430440201f917-0",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "89.125.99.34",
+              "port": 443,
+              "users": [
+                {
+                  "id": "018984cd-bac7-0fe0-b863-d1ac2d470dd8",
+                  "encryption": "none",
+                  "flow": "xtls-rprx-vision"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "9aa3b9f3c3f5.j.cloudfront.hls.ttvnw.net",
+            "publicKey": "10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc",
+            "shortId": "43dcff53849b81e6",
+            "fingerprint": "chrome"
+          }
+        },
+        "_locationHint": "🇨🇮 Кот-д’Ивуар",
+        "_sourceName": "🇨🇮 Кот-д’Ивуар"
+      },
+      {
+        "tag": "direct",
+        "protocol": "freedom",
+        "settings": {}
+      },
+      {
+        "tag": "block",
+        "protocol": "blackhole",
+        "settings": {}
+      }
+    ],
+    "routing": {
+      "domainStrategy": "IPIfNonMatch",
+      "balancers": [
+        {
+          "tag": "ca-1f6dc201f1e81f1ee2041a43e4422d4342019418432443430440201f917-balancer",
+          "selector": [
+            "ca-1f6dc201f1e81f1ee2041a43e4422d4342019418432443430440201f917-"
+          ],
+          "strategy": {
+            "type": "leastLoad",
+            "settings": {
+              "maxRTT": "900ms",
+              "expected": 1,
+              "tolerance": 0.1
+            }
+          },
+          "fallbackTag": "ca-1f6dc201f1e81f1ee2041a43e4422d4342019418432443430440201f917-0"
+        }
+      ],
+      "rules": [
+        {
+          "type": "field",
+          "domain": [
+            "geosite:category-ads-user"
+          ],
+          "outboundTag": "block",
+          "remarks": "GITHUB-ADBLOCK: category-ads-user"
+        },
+        {
+          "type": "field",
+          "domain": [
+            "geosite:category-ru"
+          ],
+          "outboundTag": "direct",
+          "remarks": "RU-DIRECT: geosite:category-ru"
+        },
+        {
+          "type": "field",
+          "ip": [
+            "geoip:ru"
+          ],
+          "outboundTag": "direct",
+          "remarks": "RU-DIRECT: geoip:ru"
+        },
+        {
+          "type": "field",
+          "ip": [
+            "0.0.0.0/8",
+            "10.0.0.0/8",
+            "127.0.0.0/8",
+            "169.254.0.0/16",
+            "172.16.0.0/12",
+            "192.168.0.0/16",
+            "::1/128",
+            "fc00::/7",
+            "fe80::/10"
+          ],
+          "outboundTag": "direct",
+          "remarks": "PRIVATE-DIRECT"
+        },
+        {
+          "type": "field",
+          "network": "tcp,udp",
+          "balancerTag": "ca-1f6dc201f1e81f1ee2041a43e4422d4342019418432443430440201f917-balancer",
+          "remarks": "DEFAULT-COUNTRY-AUTO-BALANCER"
+        }
+      ]
+    },
+    "observatory": {
+      "subjectSelector": [
+        "ca-1f6dc201f1e81f1ee2041a43e4422d4342019418432443430440201f917-"
+      ],
+      "probeUrl": "https://www.gstatic.com/generate_204",
+      "probeInterval": "10s",
+      "enableConcurrency": true
+    }
+  },
+  {
+    "remarks": "🇿🇼 🤗 Авто 🤗 🛜 🇿🇼 Зимбабве 🤗",
+    "log": {
+      "loglevel": "warning"
+    },
+    "dns": {
+      "servers": [
+        "1.1.1.1",
+        "1.0.0.1"
+      ],
+      "queryStrategy": "UseIPv4",
+      "disableFallback": false
+    },
+    "inbounds": [
+      {
+        "tag": "socks",
+        "port": 10808,
+        "listen": "127.0.0.1",
+        "protocol": "socks",
+        "settings": {
+          "udp": true
+        },
+        "sniffing": {
+          "enabled": true,
+          "destOverride": [
+            "http",
+            "tls",
+            "quic"
+          ]
+        }
+      },
+      {
+        "tag": "http",
+        "port": 10809,
+        "listen": "127.0.0.1",
+        "protocol": "http",
+        "sniffing": {
+          "enabled": true,
+          "destOverride": [
+            "http",
+            "tls",
+            "quic"
+          ]
+        }
+      }
+    ],
+    "outbounds": [
+      {
+        "tag": "ca-1f6dc201f1ff1f1fc2041743843c431430431432435201f917-0",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "89.125.99.34",
+              "port": 443,
+              "users": [
+                {
+                  "id": "018984cd-bac7-0fc7-b863-d1ac2d470dd8",
+                  "encryption": "none",
+                  "flow": "xtls-rprx-vision"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "adcb7b7293c5.j.cloudfront.hls.ttvnw.net",
+            "publicKey": "10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc",
+            "shortId": "43dcff53849b81e6",
+            "fingerprint": "edge"
+          }
+        },
+        "_locationHint": "🇿🇼 Зимбабве",
+        "_sourceName": "🇿🇼 Зимбабве"
+      },
+      {
+        "tag": "direct",
+        "protocol": "freedom",
+        "settings": {}
+      },
+      {
+        "tag": "block",
+        "protocol": "blackhole",
+        "settings": {}
+      }
+    ],
+    "routing": {
+      "domainStrategy": "IPIfNonMatch",
+      "balancers": [
+        {
+          "tag": "ca-1f6dc201f1ff1f1fc2041743843c431430431432435201f917-balancer",
+          "selector": [
+            "ca-1f6dc201f1ff1f1fc2041743843c431430431432435201f917-"
+          ],
+          "strategy": {
+            "type": "leastLoad",
+            "settings": {
+              "maxRTT": "900ms",
+              "expected": 1,
+              "tolerance": 0.1
+            }
+          },
+          "fallbackTag": "ca-1f6dc201f1ff1f1fc2041743843c431430431432435201f917-0"
+        }
+      ],
+      "rules": [
+        {
+          "type": "field",
+          "domain": [
+            "geosite:category-ads-user"
+          ],
+          "outboundTag": "block",
+          "remarks": "GITHUB-ADBLOCK: category-ads-user"
+        },
+        {
+          "type": "field",
+          "domain": [
+            "geosite:category-ru"
+          ],
+          "outboundTag": "direct",
+          "remarks": "RU-DIRECT: geosite:category-ru"
+        },
+        {
+          "type": "field",
+          "ip": [
+            "geoip:ru"
+          ],
+          "outboundTag": "direct",
+          "remarks": "RU-DIRECT: geoip:ru"
+        },
+        {
+          "type": "field",
+          "ip": [
+            "0.0.0.0/8",
+            "10.0.0.0/8",
+            "127.0.0.0/8",
+            "169.254.0.0/16",
+            "172.16.0.0/12",
+            "192.168.0.0/16",
+            "::1/128",
+            "fc00::/7",
+            "fe80::/10"
+          ],
+          "outboundTag": "direct",
+          "remarks": "PRIVATE-DIRECT"
+        },
+        {
+          "type": "field",
+          "network": "tcp,udp",
+          "balancerTag": "ca-1f6dc201f1ff1f1fc2041743843c431430431432435201f917-balancer",
+          "remarks": "DEFAULT-COUNTRY-AUTO-BALANCER"
+        }
+      ]
+    },
+    "observatory": {
+      "subjectSelector": [
+        "ca-1f6dc201f1ff1f1fc2041743843c431430431432435201f917-"
+      ],
+      "probeUrl": "https://www.gstatic.com/generate_204",
+      "probeInterval": "10s",
+      "enableConcurrency": true
+    }
+  },
+  {
+    "remarks": "🇬🇭 🤗 Авто 🤗 🛜 🇬🇭 Гана 🤗",
+    "log": {
+      "loglevel": "warning"
+    },
+    "dns": {
+      "servers": [
+        "1.1.1.1",
+        "1.0.0.1"
+      ],
+      "queryStrategy": "UseIPv4",
+      "disableFallback": false
+    },
+    "inbounds": [
+      {
+        "tag": "socks",
+        "port": 10808,
+        "listen": "127.0.0.1",
+        "protocol": "socks",
+        "settings": {
+          "udp": true
+        },
+        "sniffing": {
+          "enabled": true,
+          "destOverride": [
+            "http",
+            "tls",
+            "quic"
+          ]
+        }
+      },
+      {
+        "tag": "http",
+        "port": 10809,
+        "listen": "127.0.0.1",
+        "protocol": "http",
+        "sniffing": {
+          "enabled": true,
+          "destOverride": [
+            "http",
+            "tls",
+            "quic"
+          ]
+        }
+      }
+    ],
+    "outbounds": [
+      {
+        "tag": "ca-1f6dc201f1ec1f1ed2041343043d430201f917-0",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "89.125.99.34",
+              "port": 443,
+              "users": [
+                {
+                  "id": "018984cd-bac7-0fbb-b863-d1ac2d470dd8",
+                  "encryption": "none",
+                  "flow": "xtls-rprx-vision"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "1cd2a4767fbf.j.cloudfront.hls.ttvnw.net",
+            "publicKey": "10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc",
+            "shortId": "43dcff53849b81e6",
+            "fingerprint": "edge"
+          }
+        },
+        "_locationHint": "🇬🇭 Гана #2",
+        "_sourceName": "🇬🇭 Гана #2"
+      },
+      {
+        "tag": "direct",
+        "protocol": "freedom",
+        "settings": {}
+      },
+      {
+        "tag": "block",
+        "protocol": "blackhole",
+        "settings": {}
+      }
+    ],
+    "routing": {
+      "domainStrategy": "IPIfNonMatch",
+      "balancers": [
+        {
+          "tag": "ca-1f6dc201f1ec1f1ed2041343043d430201f917-balancer",
+          "selector": [
+            "ca-1f6dc201f1ec1f1ed2041343043d430201f917-"
+          ],
+          "strategy": {
+            "type": "leastLoad",
+            "settings": {
+              "maxRTT": "900ms",
+              "expected": 1,
+              "tolerance": 0.1
+            }
+          },
+          "fallbackTag": "ca-1f6dc201f1ec1f1ed2041343043d430201f917-0"
+        }
+      ],
+      "rules": [
+        {
+          "type": "field",
+          "domain": [
+            "geosite:category-ads-user"
+          ],
+          "outboundTag": "block",
+          "remarks": "GITHUB-ADBLOCK: category-ads-user"
+        },
+        {
+          "type": "field",
+          "domain": [
+            "geosite:category-ru"
+          ],
+          "outboundTag": "direct",
+          "remarks": "RU-DIRECT: geosite:category-ru"
+        },
+        {
+          "type": "field",
+          "ip": [
+            "geoip:ru"
+          ],
+          "outboundTag": "direct",
+          "remarks": "RU-DIRECT: geoip:ru"
+        },
+        {
+          "type": "field",
+          "ip": [
+            "0.0.0.0/8",
+            "10.0.0.0/8",
+            "127.0.0.0/8",
+            "169.254.0.0/16",
+            "172.16.0.0/12",
+            "192.168.0.0/16",
+            "::1/128",
+            "fc00::/7",
+            "fe80::/10"
+          ],
+          "outboundTag": "direct",
+          "remarks": "PRIVATE-DIRECT"
+        },
+        {
+          "type": "field",
+          "network": "tcp,udp",
+          "balancerTag": "ca-1f6dc201f1ec1f1ed2041343043d430201f917-balancer",
+          "remarks": "DEFAULT-COUNTRY-AUTO-BALANCER"
+        }
+      ]
+    },
+    "observatory": {
+      "subjectSelector": [
+        "ca-1f6dc201f1ec1f1ed2041343043d430201f917-"
+      ],
+      "probeUrl": "https://www.gstatic.com/generate_204",
+      "probeInterval": "10s",
+      "enableConcurrency": true
+    }
+  }
+]
